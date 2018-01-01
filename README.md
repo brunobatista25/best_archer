@@ -17,6 +17,8 @@ Criei esse repositório para reunir todos os comandos das principais ferramentas
 14. [Comandos Rake](https://github.com/brunobatista25/best_archer/blob/master/tests/Rake/comandos_rake.md);
 
 
+Quem quiser ajudar a contribuir nesse projeto será bem vindo!
+
 Qualquer coisa meu email é brunobatista101@gmail.com
 
 Até mais jovens!
