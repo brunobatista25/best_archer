@@ -2,7 +2,7 @@
 Criei esse repositório para reunir todos os comandos das principais ferramentas de automação.
 
 1. [Configuração Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoRuby/configuracao_ruby.md);
-2. [Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
+2. [Comandos Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
 3. [Comandos Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/comandos_cucumber.md);
 4. [Comandos Capybara](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/comandos_capybara.md);
 5. [Comandos Rspec](https://github.com/brunobatista25/best_archer/blob/master/tests/Rspec/comandos_rspec.md);
