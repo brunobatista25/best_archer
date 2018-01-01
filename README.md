@@ -10,10 +10,11 @@ Criei esse repositório para reunir todos os comandos das principais ferramentas
 7. [Configuração Android](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoAndroid/configuracao_android.md);
 8. [Comandos Appium](https://github.com/brunobatista25/best_archer/blob/master/tests/Appium/comandos_appium.md);
 9. [Comandos Protractor](https://github.com/brunobatista25/best_archer/blob/master/tests/Protractor/comandos_protractor.md);
-10. [Comandos Httparty](https://github.com/brunobatista25/best_archer/blob/master/tests/Httparty/comandos_httparty.md);
-11. [Comandos Airborne](https://github.com/brunobatista25/best_archer/blob/master/tests/Airborne/comandos_airborne.md);
-12. [Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/comandos_bundler.md);
-13. [Rake](https://github.com/brunobatista25/best_archer/blob/master/tests/Rake/comandos_rake.md);
+10. [Comandos Watir](https://github.com/brunobatista25/best_archer/blob/master/tests/Watir/comandos_watir.md);
+11. [Comandos Httparty](https://github.com/brunobatista25/best_archer/blob/master/tests/Httparty/comandos_httparty.md);
+12. [Comandos Airborne](https://github.com/brunobatista25/best_archer/blob/master/tests/Airborne/comandos_airborne.md);
+13. [Comandos Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/comandos_bundler.md);
+14. [Comandos Rake](https://github.com/brunobatista25/best_archer/blob/master/tests/Rake/comandos_rake.md);
 
 
 Qualquer coisa meu email é brunobatista101@gmail.com
