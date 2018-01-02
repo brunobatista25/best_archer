@@ -28,7 +28,7 @@ Exemplo de interpolação
 este codigo não consegue interpolar devido ter apenas aspas simples.
 puts 'Beleza? #{v2}'
 
-
+forma correta de interpolar variável
 puts "Beleza? #{v2}"
 
 puts "A soma de 1 + 2 é: #{1 + 2}"
