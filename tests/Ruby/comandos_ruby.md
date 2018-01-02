@@ -1,11 +1,11 @@
 Aqui iremos falar um pouco sobre o Ruby básico
 
 Primeira parte é comandos básicos de Ruby.
-1. [Hello World](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula1.md);
-2. [Entradas e Saídas](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula2.md);
-3. [Variáveis e Primitivos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula3.md);
-4. [Comentários](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula4.md);
-5. [String e Interpolação](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula5.md);
+1. [Hello World](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/1-hello_world.md);
+2. [Entradas e Saídas](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/2-entrada_e_saida.md);
+3. [Variáveis e Primitivos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/3-variaveis_e_primitivos.md);
+4. [Comentários](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/4-comentarios.md);
+5. [String e Interpolação](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/5-string_e_interpolacao.md);
 6. [Coersão ou conversões](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula6.md);
 7. [Operadores Aritimeticos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula7.md);
 8. [Operadores Relacionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula8.md);
