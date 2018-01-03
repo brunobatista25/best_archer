@@ -6,11 +6,11 @@ Primeira parte é comandos básicos de Ruby.
 3. [Variáveis e Primitivos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/3-variaveis_e_primitivos.md);
 4. [Comentários](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/4-comentarios.md);
 5. [String e Interpolação](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/5-string_e_interpolacao.md);
-6. [Coersão ou conversões](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula6.md);
-7. [Operadores Aritimeticos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula7.md);
-8. [Operadores Relacionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula8.md);
-9. [Operadores de Atribuição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula9.md);
-10. [Estruturas Condicionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula10.md);
+6. [Coersão ou conversões](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/coercao.md);
+7. [Operadores Aritimeticos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/7-operadores_aritimeticos.md);
+8. [Operadores Relacionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/8-operadores_relacionais.md);
+9. [Operadores de Atribuição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/9-operador_de_atribuicao.md);
+10. [Estruturas Condicionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/10-estruturas_condicionais.md);
 11. [Operadores Lógicos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula11.md);
 12. [Estrutura de Repetição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula12.md);
 13. [Vetores e Arrays](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula13.md);
