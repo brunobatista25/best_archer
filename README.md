@@ -20,6 +20,7 @@ E também da própria documentação dos frameworks.
 13. [Comandos Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/comandos_bundler.md);
 14. [Comandos Rake](https://github.com/brunobatista25/best_archer/blob/master/tests/Rake/comandos_rake.md);
 15. [Comandos Github](https://github.com/brunobatista25/best_archer/blob/master/tests/Github/comandos_github.md);
+16. [Comandos Postman](https://github.com/brunobatista25/best_archer/blob/master/tests/Postman/comandos_postman.md);
 
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
