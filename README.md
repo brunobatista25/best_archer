@@ -1,6 +1,10 @@
 # best_archer
 Criei esse repositório para reunir todos os comandos das principais ferramentas de automação.
 
+Então eu estou juntando referências de vários posts que encontro na internet.
+
+E também da própria documentação dos frameworks.
+
 1. [Configuração Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoRuby/configuracao_ruby.md);
 2. [Comandos Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
 3. [Comandos Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/comandos_cucumber.md);
