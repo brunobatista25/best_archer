@@ -1,15 +1,15 @@
 Aqui iremos falar um pouco sobre o Ruby básico
 
 Primeira parte é comandos básicos de Ruby.
-1. [Hello World](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/1-hello_world.md);
-2. [Entradas e Saídas](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/2-entrada_e_saida.md);
-3. [Variáveis e Primitivos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/3-variaveis_e_primitivos.md);
-4. [Comentários](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/4-comentarios.md);
-5. [String e Interpolação](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/5-string_e_interpolacao.md);
-6. [Coersão ou conversões](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/6-coercao.md);
-7. [Operadores Aritimeticos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/7-operadores_aritimeticos.md);
-8. [Operadores Relacionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/8-operadores_relacionais.md);
-9. [Operadores de Atribuição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/9-operador_de_atribuicao.md);
+1. [Hello World](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/01-hello_world.md);
+2. [Entradas e Saídas](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/02-entrada_e_saida.md);
+3. [Variáveis e Primitivos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/03-variaveis_e_primitivos.md);
+4. [Comentários](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/04-comentarios.md);
+5. [String e Interpolação](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/05-string_e_interpolacao.md);
+6. [Coersão ou conversões](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/06-coercao.md);
+7. [Operadores Aritimeticos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/07-operadores_aritimeticos.md);
+8. [Operadores Relacionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/08-operadores_relacionais.md);
+9. [Operadores de Atribuição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/09-operador_de_atribuicao.md);
 10. [Estruturas Condicionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/10-estruturas_condicionais.md);
 11. [Operadores Lógicos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/11-operadores_logicos.md);
 12. [Estrutura de Repetição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/12-estrutura_de_repeticao.md);
