@@ -50,6 +50,6 @@ $ bundle config [name [value]]
 ```
 EXISTE MAIS UMAS OPÇÕES COMPLEMENTARES PARA O BUNDLE CONFIG
 
-3. [Opções extras do bundle config](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/04-opcoes_extras_bundle_config.md);
+3. [Opções extras do bundle config](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/04-comandos_extras_bundle_config.md);
 
 MAIS EM BREVE...
