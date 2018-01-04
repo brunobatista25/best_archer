@@ -29,6 +29,7 @@ RUBY
 JAVA
 
 1. [Configuração Java](https://github.com/brunobatista25/best_archer/blob/master/tests/Java/configuracao_java.md);
+2. [Comandos SeleniumWebdriver](https://github.com/brunobatista25/best_archer/blob/master/tests/SeleniumWebdriver/comandos_webdriver.md);
 
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
