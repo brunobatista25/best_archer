@@ -11,8 +11,8 @@ Primeira parte é comandos básicos de Ruby.
 8. [Operadores Relacionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/8-operadores_relacionais.md);
 9. [Operadores de Atribuição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/9-operador_de_atribuicao.md);
 10. [Estruturas Condicionais](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/10-estruturas_condicionais.md);
-11. [Operadores Lógicos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula11.md);
-12. [Estrutura de Repetição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula12.md);
+11. [Operadores Lógicos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/11-operadores_logicos.md);
+12. [Estrutura de Repetição](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/12-estrutura_de_repeticao.md);
 13. [Vetores e Arrays](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula13.md);
 14. [Interador Each](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula14.md);
 15. [Simbolos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula15.md);
