@@ -5,6 +5,8 @@ Então eu estou juntando referências de vários posts que encontro na internet.
 
 E também da própria documentação dos frameworks.
 
+RUBY
+
 1. [Configuração Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoRuby/configuracao_ruby.md);
 2. [Comandos Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
 3. [Comandos Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/comandos_cucumber.md);
@@ -23,6 +25,10 @@ E também da própria documentação dos frameworks.
 16. [Comandos Postman](https://github.com/brunobatista25/best_archer/blob/master/tests/Postman/comandos_postman.md);
 17. [Comandos Robot Framework](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/comandos_robotframework.md);
 18. [Comandos Calabash](https://github.com/brunobatista25/best_archer/blob/master/tests/Calabash/comandos_calabash.md);
+
+JAVA
+
+1. [Configuraçao Java](https://github.com/brunobatista25/best_archer/blob/master/tests/Java/configuracao_java.md);
 
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
