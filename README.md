@@ -19,7 +19,7 @@ E também da própria documentação dos frameworks.
 12. [Comandos Airborne](https://github.com/brunobatista25/best_archer/blob/master/tests/Airborne/comandos_airborne.md);
 13. [Comandos Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/01-introducao_bundler.md);
 14. [Comandos Rake](https://github.com/brunobatista25/best_archer/blob/master/tests/Rake/comandos_rake.md);
-15. [Comandos Github](https://github.com/brunobatista25/best_archer/blob/master/tests/Github/comandos_github.md);
+15. [Comandos Git](https://github.com/brunobatista25/best_archer/blob/master/tests/Git/comandos_git.md);
 16. [Comandos Postman](https://github.com/brunobatista25/best_archer/blob/master/tests/Postman/comandos_postman.md);
 17. [Comandos Robot Framework](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/comandos_robotframework.md);
 18. [Comandos Calabash](https://github.com/brunobatista25/best_archer/blob/master/tests/Calabash/comandos_calabash.md);
