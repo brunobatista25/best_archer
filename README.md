@@ -22,6 +22,7 @@ E também da própria documentação dos frameworks.
 15. [Comandos Github](https://github.com/brunobatista25/best_archer/blob/master/tests/Github/comandos_github.md);
 16. [Comandos Postman](https://github.com/brunobatista25/best_archer/blob/master/tests/Postman/comandos_postman.md);
 17. [Comandos Robot Framework](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/comandos_robotframework.md);
+18. [Comandos Calabash](https://github.com/brunobatista25/best_archer/blob/master/tests/Calabash/comandos_calabash.md);
 
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
