@@ -1,6 +1,6 @@
 Instalação do Cucumber
 
-Instalar o cucumber e bem simples,bata abrir o terminal e digitar o seguinte comando:
+Instalar o cucumber e bem simples, basta abrir o terminal e digitar o seguinte comando:
 
 ```
 gem install cucumber
@@ -22,9 +22,10 @@ create   features/support/env.rb
 ```
 
 Onde a pasta step... é onde colocamos os arquivos .rb
+
 Onde a pasta suport é onde fazemos nossas configurações
 
-Eu tambem adiciono a pasta 
+Eu também adiciono a pasta 
 
 ```
 features/specs
