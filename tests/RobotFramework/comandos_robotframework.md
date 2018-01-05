@@ -22,11 +22,6 @@ E conta com diversos tipos de recursos úteis, tais como:
 Mais informações: https://github.com/robotframework/robotframework
 
 
-Instalação Python
-1. [Python](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/01_InstalacaoPython.md);
-
-Instalação Robot Framework
-2. [Robot Framework](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/02_InstalacaoRobotFramework.md);
-
-Instalação Libraries
-3. [Python](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/03_InstalacaoLibraries.md);
+1. [Instalação Python](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/01_InstalacaoPython.md);
+2. [Instalação Robot Framework](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/02_InstalacaoRobotFramework.md);
+3. [Instalação Python](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/03_InstalacaoLibraries.md);
