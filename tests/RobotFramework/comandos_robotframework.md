@@ -24,4 +24,4 @@ Mais informações: https://github.com/robotframework/robotframework
 
 1. [Instalação Python](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/01_InstalacaoPython.md);
 2. [Instalação Robot Framework](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/02_InstalacaoRobotFramework.md);
-3. [Instalação Python](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/03_InstalacaoLibraries.md);
+3. [Instalação Libraries Diversas](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/03_InstalacaoLibraries.md);
