@@ -57,7 +57,7 @@ Isso pode ser ilustrado por esse simples programa – exemplo.rb:
 A saída que obtive quando rodei o programa no meu PC foi:
 
 ```ruby
-1 >ruby p039xsymbol.rb
+1 >ruby exemplo.rb
 2 116458
 3 79218
 4 79218
@@ -67,7 +67,7 @@ A saída que obtive quando rodei o programa no meu PC foi:
 Aqui temos outro exemplo – exemplo.rb:
 
 ```ruby
-1 # p039xysymbol.rb
+1 # exemplo.rb
 2 sabe_ruby = :sim
 3 if sabe_ruby == :sim
 4   puts 'Voce eh um rubista'
@@ -79,7 +79,7 @@ Aqui temos outro exemplo – exemplo.rb:
 A saída é:
 
 ```ruby
-1 >ruby p039xysymbol.rb
+1 >ruby exemplo.rb
 2 Voce eh um rubista
 3 >Exit code: 0
 ```
