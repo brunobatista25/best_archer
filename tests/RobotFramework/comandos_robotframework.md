@@ -1,6 +1,6 @@
 Aqui iremos falar sobre Robot Framework
 
-*Introdução*
+## Introdução
 
 O Robot Framework é uma estrutura para automação de testes de aceitação (você pode ter ouvido ATDD também 😉) que permite usar abordagens keyword-driven, data-driven e/ou behaviour-driven (BDD). Possui sintaxe de dados tabular fácil de usar e permite que usuários utilizem e criem bibliotecas em Python ou Java.
 
@@ -21,6 +21,7 @@ E conta com diversos tipos de recursos úteis, tais como:
 
 Mais informações: https://github.com/robotframework/robotframework
 
+## Instalação
 
 1. [Instalação Python](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/01_InstalacaoPython.md);
 2. [Instalação Robot Framework](https://github.com/brunobatista25/best_archer/blob/master/tests/RobotFramework/InstalacaoRobotFramework/02_InstalacaoRobotFramework.md);
