@@ -1,6 +1,6 @@
 # Git
 
-Nesta sessão serão apresentados alguns dos principais comandos Git no desenvolvimento e manutenção de software. Primeiramente será necessário baixar o git no seu computador, abaixo seguem os instaladores e seus respectivos sistemas operacionais:
+Nesta sessão serão apresentados alguns dos principais comandos Git no desenvolvimento e manutenção de software. Primeiramente será necessário baixar o git em seu computador, abaixo seguem os instaladores e seus respectivos sistemas operacionais:
 
 * [Instalador Windows](https://git-scm.com/download/win);
 * [Instalador Linux/Unix](https://git-scm.com/download/linux);
@@ -19,12 +19,12 @@ Lembrando que podemos utilizar o comando acima sem o parâmetro '--global' para 
 
 **_Obs.: Existem algumas outras configurações como a escolha do editor de texto padrão, ferramenta para a solução de conflitos, entre outras que podem ser visualizadas através deste link: [Configurações iniciais Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git)_**
 
-Após a instalação do Git podemos começar a utilizar a ferramenta de duas formas básicas. Estas são criar um novo repositório a partir de algum projeto local ou baixar algum repositório remoto já pré-existente. Os comandos para estes dois casos são o seguinte:
+Após a instalação do Git podemos começar a utilizar a ferramenta de duas formas básicas. Estas são criar um novo repositório a partir de algum projeto local ou baixar algum repositório remoto já pré-existente. Os comandos para estes dois casos iremos explicar no tópico seguinte.
 
 ---
 ## Iniciando com o Git
 
-O primeiro comando apresentado neste tutorial será o para criar um repositório a partir de um projeto local, para isto vá até o diretório onde o projeto esta e execute o seguinte comando:
+O primeiro comando apresentado neste tópico será o de criar um repositório a partir de um projeto local, para isto vá até o diretório onde o projeto esta e execute o seguinte comando:
 
 ```
 git init
@@ -40,11 +40,11 @@ git clone username@ip_do_servidor:/path/to/repo.git
 ---
 ## Entendendo o Fluxo de Trabalho do Git
 
-O fluxo de trabalho do Git se resume a três etapas, sendo elas (Apresentas da direita pra esquerda na imagem abaixo):
+O fluxo de trabalho do Git se resume em três etapas, sendo elas (Apresentas da direita pra esquerda na imagem abaixo):
 
-1. **Working Directory/Work Tree:** _Onde esta armazenado a cópia do repositório no seu computador e onde haverão as modificações para ser enviado ao repositório remoto posteriormente;_
-2. **Index/Stage:** _Onde estarão os arquivos temporários, passíveis de serem enviados ou não para o servidor remoto;_
-2. **HEAD:** _Onde esta a versão final dos códigos que serão enviados para o servidor remoto._
+1. **Working Directory/Work Tree:** _Onde esta armazenado a cópia do repositório no seu computador e onde os arquivos serão modificados;_
+2. **Index/Stage:** _Onde estarão os arquivos já modificados e passíveis de serem enviados ou não para o servidor remoto;_
+2. **HEAD -- Repository:** _Onde esta a versão final dos arquivos que serão enviados para o servidor._
 
 ![alt text](https://backlog.com/git-tutorial/en/img/post/intro/capture_intro1_4_1.png)
 
@@ -79,19 +79,19 @@ Ou caso queiramos enviar todos os arquivos de uma só vez basta inserir um ponto
 git add .
 ```
 
-Para confirmar que queremos que estas modificações sejam enviadas para o servidor remoto, temos que 'commitar', ou seja confirmar o envio para o servidor remoto:
+Para confirmar que queremos que estas modificações sejam enviadas para o servidor remoto, temos que 'commitar', ou seja confirmar o envio:
 
 ```
 git commit -m "Criando tutorial Git"
 ```
-**_Obs.: O parâmetro '-m' significa a mensagem do commit, ou seja, uma breve descrição sobre o que você acabou de alterar no código_**
+**_Obs.: O parâmetro '-m' significa a mensagem do commit, ou seja, uma breve descrição sobre o que você acabou de inserir/alterar no código_**
 
 Imagine agora que você errou na mensagem do commit ou simplesmente quer se desfazer do último realizado, existe alguma forma de fazer isto? Sim, através do parâmetro **--amend**:
 ```
 git commit --amend
 ```
 
-Pronto! Já está tudo no servidor remoto então e todos podem utilizar o meu código então? ÉÉÉÉÉÉ..Ainda não :sweat_smile:
+Pronto! Já está tudo no servidor remoto então e todos podem utilizar o meu código? ÉÉÉÉÉÉ..Ainda não :sweat_smile:
 
 Precisamos enviar as modificações para o servidor remoto com o comando **push**:
 
@@ -149,7 +149,7 @@ Mais informações a respeito deste comando, [clique aqui.](https://www.atlassia
 
 ### 2. Atualizando seu repositório local
 
-Quando trabalhamos em um time, normalmente cada participante trabalha em sua própria branch e depois há a junção do que foi desenvolvido por cada um para a branch principal. No entanto as vezes precisamos atualizar a nossa branch com aquilo que já foi desenvolvido por alguem, ou até mesmo porque já houveram mudanças na branch principal do projeto. Para isto precisamos 'puxar' estas modificações para dentro do nosso repositório local, isto se faz através do comando:
+Quando trabalhamos em um time, normalmente cada participante trabalha em sua própria branch e depois há a junção do que foi desenvolvido por cada um para a branch principal. No entanto as vezes precisamos atualizar a nossa branch com aquilo que já foi desenvolvido por alguém, ou até mesmo porque já houveram mudanças na branch principal do projeto. Para isto precisamos 'puxar' estas modificações para dentro do nosso repositório local, isto se faz através do comando:
 
 ```
 git pull
@@ -160,7 +160,7 @@ Legal, mas eu quero que as modificações do meu time estejam na minha branch an
 git merge nome_da_branch_a_ser_mesclada
 ```
 
-Tá, fiz isso mas o git tá reclamando que já alteraram o mesmo arquivo que eu modifiquei, e agora? Nesse caso temos que fazer o merge de forma manual pois o Git não consegue identificar qual é a modificação correta. Para sabermos quais arquivos estão com conflito, basta executarmos o comando **git status** e os que tiverem com problema de merge estarão listados com a tag **_unmerged_**.
+Tá, fiz isso mas o git tá reclamando que já alteraram o mesmo arquivo que eu modifiquei, e agora? Nesse caso temos que fazer o merge de forma manual pois o Git não consegue identificar qual é a modificação correta a ser enviada. Para sabermos quais arquivos estão com conflito, basta executarmos o comando **git status** e os que tiverem com problema de merge estarão listados com a tag **_unmerged_**.
 
 ```shell
 > git status
@@ -180,7 +180,7 @@ Após a resolução dos confitos, basta seguirmos o fluxo básico de **add**, **
 
 ### 3. Descartando nossas modificações
 
-\- **_"Quer saber..O que eu fiz tá tudo errado, quero remover tudo o que eu fiz, desde o que foi commitado até o que eu ainda estou trabalhando no momento, tem jeito?!"_** :rage:
+\- **_"Quer saber..O que eu fiz tá tudo errado, quero remover tudo o que eu fiz, desde o que eu commitei até o que eu ainda estou trabalhando no momento, tem jeito?!"_** :rage:
 
 \-Calma, que tudo tem um jeito :innocent:
 
@@ -218,3 +218,5 @@ Como podemos observar o Git é o controlador de versão mais utilizado e mais po
 * https://backlog.com/git-tutorial/en/intro/intro1_4.html
 
 * https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
+
+* https://veerasundar.com/blog/2011/06/git-tutorial-comparing-files-with-diff/
