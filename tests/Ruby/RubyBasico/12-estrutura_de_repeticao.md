@@ -1,6 +1,7 @@
 Estrutura de Repetição
 
 While -- enquanto o teste for verdadeiro vai fazer o bloco de repeticao
+
 Until -- enquanto for falso nao vai fazer nada
 
 ```ruby
