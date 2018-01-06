@@ -84,7 +84,12 @@ Para confirmar que queremos que estas modificações sejam enviadas para o servi
 ```
 git commit -m "Criando tutorial Git"
 ```
-**_Obs.: O parâmetro '-m' é obrigatório e significa a mensagem do commit, ou seja, uma breve descrição sobre o que você acabou de alterar no código_**
+**_Obs.: O parâmetro '-m' significa a mensagem do commit, ou seja, uma breve descrição sobre o que você acabou de alterar no código_**
+
+Imagine agora que você errou na mensagem do commit ou simplesmente quer se desfazer do último realizado, existe alguma forma de fazer isto? Sim, através do parâmetro **--amend**:
+```
+git commit --amend
+```
 
 Pronto! Já está tudo no servidor remoto então e todos podem utilizar o meu código então? ÉÉÉÉÉÉ..Ainda não :sweat_smile:
 
