@@ -131,6 +131,22 @@ Ou criarmos uma nova branch local através do comando:
 git checkout -b nome_da_nova_branch
 ```
 
+O comando git checkout pode ser utilizado não apenas no âmbito de branches mas também no de arquivos. Por exemplo, fizemos modificações em um arquivo chamado _github.txt_ porém este arquivo já foi criado no repositório remoto com as mesmas modificações, para descartamos o que fizemos e atualizarmos com a versão do repositório remoto basta executarmos o comando:
+
+```
+git checkout -- nome_do_arquivo
+```
+
+**_Obs.: Isto irá substituir apenas os arquivos que ainda não foram commitados. Ou seja, os que não estão no Index._**
+
+Existem diversas outras funcionalidades para o comando **_git checkout_**, um bem legal é poder realizar o checkout de um arquivo a partir de um determinado id de commit gerado pelo próprio Github:
+
+```
+git checkout id_do_commit nome_do_arquivo
+```
+
+Mais informações a respeito deste comando, [clique aqui.](https://www.atlassian.com/git/tutorials/undoing-changes)
+
 ### 2. Atualizando seu repositório local
 
 Quando trabalhamos em um time, normalmente cada participante trabalha em sua própria branch e depois há a junção do que foi desenvolvido por cada um para a branch principal. No entanto as vezes precisamos atualizar a nossa branch com aquilo que já foi desenvolvido por alguem, ou até mesmo porque já houveram mudanças na branch principal do projeto. Para isto precisamos 'puxar' estas modificações para dentro do nosso repositório local, isto se faz através do comando:
@@ -161,3 +177,5 @@ github.md: needs merge
 **_Obs.: Um outro comando para visualizar as alterações não mergeadas é o comando git diff. Mais informações a respeito deste comando, [clique aqui.](https://veerasundar.com/blog/2011/06/git-tutorial-comparing-files-with-diff/)_**
 
 Após a resolução dos confitos, basta seguirmos o fluxo básico de **add**, **commit** e **push** explicados acima.
+
+### 3. Descartando nossas modificações
