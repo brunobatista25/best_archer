@@ -44,7 +44,7 @@ O fluxo de trabalho do Git se resume a três etapas, sendo elas (Apresentas da d
 
 1. **Working Directory/Work Tree:** _Onde esta armazenado a cópia do repositório no seu computador e onde haverão as modificações para ser enviado ao repositório remoto posteriormente;_
 2. **Index/Stage:** _Onde estarão os arquivos temporários, passíveis de serem enviados ou não para o servidor remoto;_
-2. **HEAD/Repository:** _Onde esta a versão final dos códigos já escritos anteriormente ou que foram modificados e enviados para o servidor remoto._
+2. **HEAD:** _Onde esta a versão final dos códigos que serão enviados para o servidor remoto._
 
 ![alt text](https://backlog.com/git-tutorial/en/img/post/intro/capture_intro1_4_1.png)
 
@@ -83,4 +83,39 @@ Para confirmar que queremos que estas modificações sejam enviadas para o servi
 
 ```
 git commit -m "Criando tutorial Git"
+```
+**_Obs.: O parâmetro '-m' é obrigatório e significa a mensagem do commit, ou seja, uma breve descrição sobre o que você acabou de alterar no código_**
+
+Pronto! Já está tudo no servidor remoto então e todos podem utilizar o meu código então? ÉÉÉÉÉÉ..Ainda não :sweat_smile:
+
+Precisamos enviar as modificações para o servidor remoto com o comando **push**:
+
+```
+git push origin master
+```
+
+Sendo que podemos também alterar a branch\* na qual iremos enviar as modificações. No exemplo acima enviamos as modificações direto para a branch principal (master) mas poderíamos enviar para a branch **github** por exemplo:
+
+```
+git push origin github
+```
+
+### Mas o que são Branches?!
+
+Diferente de outros controladores de versão, o Git tem como diferencial criar 'Cópias de Repositórios' para dentro de sua máquina. Ou seja, criamos a cópia de um repositório estável e em cima dela desenvolvemos as features para posteriormente serem inseridas nesta versão estável do repositório.
+
+![alt text](https://grapefruitgames.files.wordpress.com/2013/05/unitygitdiagram.png)
+
+Normalmente a branch principal de um projeto é a branch **master**. Não é uma prática aceitável realizar **commits** e dar **push** diretamente nesta branch. Por isso o recomendável é criar branches locais e após isso realizar a inserção do que foi desenvolvido na **master**.
+
+Para saber a branch na qual estamos trabalhando o comando é este:
+```
+git branch
+```
+Este comando retornará as branches que temos localmente e marcará com um asterisco qual é a branch atual.
+
+Podemos mudar a branch quando bem entendermos através do comando **checkout**:
+
+```
+git checkout nome_da_branch
 ```
