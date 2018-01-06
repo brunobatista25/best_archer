@@ -189,3 +189,32 @@ Primeiro passo, recuperar a versão mais recente do servidor remoto através do 
 ```
 git fetch origin
 ```
+
+Após isto podemos realizar o 'reset' do repositório como um todo ou apenas de um arquivo :)
+
+Repositório:
+```
+git reset --hard origin/master
+```
+
+Arquivo:
+```
+git reset HEAD github.txt
+```
+
+---
+## Considerações finais e referências
+
+Como podemos observar o Git é o controlador de versão mais utilizado e mais poderoso do momento, listamos acima apenas alguns dos comandos principais porém existem uma gama de outros comandos que nos ajudam no dia-a-dia. Deixarei abaixo alguns links contendo materias e outros conteúdos além dos listados acima, porém sempre que possível irei atualizando pra deixar este tutorial ainda mais completo. Espero que tenha ficado claro e é óbvio que sugestões serão sempre bem-vindas :)
+
+### Referências:
+
+* https://git-scm.com/book/pt-br/v1/
+
+* http://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+* http://www.keeptesting.com.br/2014/09/30/dicas-de-git-para-testers/
+
+* https://backlog.com/git-tutorial/en/intro/intro1_4.html
+
+* https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
