@@ -179,3 +179,13 @@ github.md: needs merge
 Após a resolução dos confitos, basta seguirmos o fluxo básico de **add**, **commit** e **push** explicados acima.
 
 ### 3. Descartando nossas modificações
+
+\- **_"Quer saber..O que eu fiz tá tudo errado, quero remover tudo o que eu fiz, desde o que foi commitado até o que eu ainda estou trabalhando no momento, tem jeito?!"_** :rage:
+
+\-Calma, que tudo tem um jeito :innocent:
+
+Primeiro passo, recuperar a versão mais recente do servidor remoto através do comando:
+
+```
+git fetch origin
+```
