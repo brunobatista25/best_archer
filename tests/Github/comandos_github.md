@@ -119,3 +119,40 @@ Podemos mudar a branch quando bem entendermos através do comando **checkout**:
 ```
 git checkout nome_da_branch
 ```
+
+Ou criarmos uma nova branch local através do comando:
+
+```
+git checkout -b nome_da_nova_branch
+```
+
+### 2. Atualizando seu repositório local
+
+Quando trabalhamos em um time, normalmente cada participante trabalha em sua própria branch e depois há a junção do que foi desenvolvido por cada um para a branch principal. No entanto as vezes precisamos atualizar a nossa branch com aquilo que já foi desenvolvido por alguem, ou até mesmo porque já houveram mudanças na branch principal do projeto. Para isto precisamos 'puxar' estas modificações para dentro do nosso repositório local, isto se faz através do comando:
+
+```
+git pull
+```
+
+Legal, mas eu quero que as modificações do meu time estejam na minha branch antes de eu realizar o **push** para a **master**, é possível? Sim através do comando abaixo, podemos realizar a 'mesclagem' de branchs distintas:
+```
+git merge nome_da_branch_a_ser_mesclada
+```
+
+Tá, fiz isso mas o git tá reclamando que já alteraram o mesmo arquivo que eu modifiquei, e agora? Nesse caso temos que fazer o merge de forma manual pois o Git não consegue identificar qual é a modificação correta. Para sabermos quais arquivos estão com conflito, basta executarmos o comando **git status** e os que tiverem com problema de merge estarão listados com a tag **_unmerged_**.
+
+```shell
+> git status
+github.md: needs merge
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#    unmerged:   github.md
+#
+```
+
+**_Obs.: Um outro comando para visualizar as alterações não mergeadas é o comando git diff. Mais informações a respeito deste comando, [clique aqui.](https://veerasundar.com/blog/2011/06/git-tutorial-comparing-files-with-diff/)_**
+
+Após a resolução dos confitos, basta seguirmos o fluxo básico de **add**, **commit** e **push** explicados acima.
