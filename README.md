@@ -37,6 +37,12 @@ OUTROS:
 4. [Comandos Git](https://github.com/brunobatista25/best_archer/blob/master/tests/%20Git/comandos_git.md);
 
 
+CONTINUOUS INTEGRATION:
+1. [Comandos CircleCI](https://github.com/brunobatista25/best_archer/blob/master/tests/CircleCi/comandos_circleci.md);
+2. [Comandos Codeship](https://github.com/brunobatista25/best_archer/blob/master/tests/Codeship/comandos_codeship.md);
+3. [Comandos Jenkis](https://github.com/brunobatista25/best_archer/blob/master/tests/Jenkis/comandos_jenkis.md);
+4. [Comandos TravisCI](https://github.com/brunobatista25/best_archer/blob/master/tests/TravisCi/comandos_travisci.md);
+
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
 
 Qualquer coisa meu email é brunobatista101@gmail.com
