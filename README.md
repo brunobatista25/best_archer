@@ -29,6 +29,7 @@ AUTOMAÇÃO WEB:
 8. [Comandos SeleniumWebdriver](https://github.com/brunobatista25/best_archer/blob/master/tests/SeleniumWebdriver/comandos_webdriver.md);
 9. [Comandos Junit](https://github.com/brunobatista25/best_archer/blob/master/tests/Junit/comandos_junit.md);
 10. [Comandos TestNG](https://github.com/brunobatista25/best_archer/blob/master/tests/TestNG/comandos_testng.md);
+11. [Comandos Selenium com Kotlin](https://github.com/brunobatista25/best_archer/blob/master/tests/SeleniumKotlin/comandos_selenium_kotlin.md);
 
 
 AUTOMAÇÃO DE API:
