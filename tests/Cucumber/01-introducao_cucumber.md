@@ -64,8 +64,8 @@ Menos tempo investido em escrita de casos de testes.
 Mais tempo investido em análise de cobertura de testes.
 Estes testes podem ser utilizados por desenvolvedores na automatização.
 Fácil manutenção de templates.
-Até o próximo post ,irei falar mais detalhes sobre cucumber.
 
+Vamos para o próximo post [Instalação do Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/02-instalacao_cucumber.md);
 
 Referências:
 	

@@ -31,3 +31,9 @@ Eu também adiciono a pasta
 features/specs
 ```
 Onde nela colocamos os arquivos .feature
+
+Vamos paro proximo post [Iniciando o Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/03-iniciando_cucumber.md);
+
+Referências:
+	
+https://github.com/cucumber/cucumber
