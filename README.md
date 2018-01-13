@@ -7,15 +7,13 @@ E também da própria documentação dos frameworks.
 
 RUBY:
 1. [Configuração Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoRuby/configuracao_ruby.md);
-2. [Ruby Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
+2. [Configuração Java](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoJava/configuracao_java.md);
+3. [Configuração Android](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoAndroid/configuracao_android.md);
 
-JAVA:
-1. [Configuração Java](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoJava/configuracao_java.md);
+BÁSICO:
+1. [Ruby Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
 2. [Java Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Java/java_basico.md);
-
-ANDROID:
-1. [Configuração Android](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoAndroid/configuracao_android.md);
-
+3. [C# Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/C#/C#_basico.md);
 
 AUTOMAÇÃO WEB:
 
