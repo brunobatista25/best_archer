@@ -30,7 +30,7 @@ Funcionalidade: Fazer Login
 
 O cenarios do cucumber consistem em etapas, também conhecidas como Givens, Whens e Thens.
 
-O pepino não distingue tecnicamente entre esses três tipos de etapas. No entanto, recomendamos que você faça! Essas palavras foram cuidadosamente selecionadas para seu propósito, e você deve saber qual é o propósito de entrar na mentalidade do BDD .
+O cucumber não distingue tecnicamente entre esses três tipos de etapas. No entanto, recomendamos que você faça! Essas palavras foram cuidadosamente selecionadas para seu propósito, e você deve saber qual é o propósito de entrar na mentalidade do BDD .
 
 Robert C. Martin escreveu uma ótima publicação sobre o conceito Given-When-Then do BDD, onde ele pensa neles como uma máquina de estados finitos.
 
@@ -80,7 +80,7 @@ Cenário : Múltiplos Givens
      Mas eu não vejo outra coisa
 ```
 
-Para passos de Pepino começando com E ou Mas são exatamente o mesmo tipo de etapas que todos os outros.
+Para passos de cucumber começando com E ou Mas são exatamente o mesmo tipo de etapas que todos os outros.
 
 Agora vamos continua com nossa feature que ficaria desse jeito
 
