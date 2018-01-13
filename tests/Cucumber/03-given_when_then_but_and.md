@@ -1,4 +1,4 @@
-Iniciando o Cucumber
+Given(Dado) When(Quando) Then(Então) And(e) But(mas)
 
 Depois de ter feito a [Instalação do Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/02-instalacao_cucumber.md);
 
@@ -34,7 +34,17 @@ O cucumber não distingue tecnicamente entre esses três tipos de etapas. No ent
 
 Robert C. Martin escreveu uma ótima publicação sobre o conceito Given-When-Then do BDD, onde ele pensa neles como uma máquina de estados finitos.
 
-Quando
+Given(Dado)
+O objetivo dos dados é colocar o sistema em um estado conhecido antes que o usuário (ou sistema externo) comece a interagir com o sistema (nas etapas Quando). Evite falar sobre a interação do usuário em dados. Se você criasse casos de uso, os dados seriam suas condições prévias.
+
+Exemplos:
+
+Crie registros (instâncias do modelo) / configure o estado do banco de dados.
+Está certo chamar a camada "dentro" da camada UI aqui (em Rails: converse com os modelos).
+Faça login em um usuário (Uma exceção à recomendação sem interação. As coisas que "aconteceram anteriormente" estão ok).
+E para todos os usuários Rails lá fora - recomendamos usar um dado com um argumento de tabela multilinha para configurar registros em vez de dispositivos elétricos. Desta forma, você pode ler o cenário e dar sentido a isso sem ter que procurar em outro lugar (nas luminárias).
+
+When(Quando)
 
 O objetivo de As etapas é descrever a ação-chave que o usuário executa (ou, usando a metáfora de Robert C. Martin, a transição do estado).
 
@@ -44,7 +54,7 @@ Interagir com uma página web (Webrat / Watir / Selenium interação etc deve pr
 Interaja com algum outro elemento da interface do usuário.
 Desenvolver uma biblioteca? Chutando algum tipo de ação que tenha um efeito observável em outro lugar.
 
-Então
+Then(Então)
 
 O objetivo de Then steps é observar os resultados . As observações devem estar relacionadas ao valor / benefício da empresa na descrição do recurso. As observações também devem estar em algum tipo de saída - que é algo que vem de fora do sistema (relatório, interface de usuário, mensagens) e não algo que está profundamente enterrado dentro dela (que não tem valor comercial).
 
@@ -54,7 +64,7 @@ Verifique se algo relacionado ao dado + Quando é (ou não) na saída
 Verifique se algum sistema externo recebeu a mensagem esperada (um e-mail com conteúdo específico foi enviado?)
 Embora possa ser tentador implementar, em seguida, etapas para apenas procurar no banco de dados - resista à tentação. Você só deve verificar o resultado que é observável para o usuário (ou sistema externo) e os bancos de dados geralmente não são.
 
-E mas
+And,But(E,mas)
 
 Se você tem vários dados, whens ou thens você pode escrever
 
@@ -151,6 +161,8 @@ Então("eu verifico se o login foi realizado.") do
   pending # Write code here that turns the phrase above into concrete actions
 end
 ```
+
+Vamos para o próximo post [Background](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/04-background.md);
 
 Referências:
 	

@@ -70,3 +70,5 @@ Vamos para o próximo post [Instalação do Cucumber](https://github.com/brunoba
 Referências:
 	
 https://github.com/cucumber/cucumber
+
+https://medium.com/@brunobatista101/da-s%C3%A9rie-1-aprenda-cucumber-com-batista-1b75ba2fb0a5
