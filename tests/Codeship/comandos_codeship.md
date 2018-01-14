@@ -14,19 +14,6 @@ O serviço oferece uma variedade de poderosas opções de configuração. Atualm
 
 A prática de integração contínua envolve repetidos testes automatizados e fusão de código com notificações para alertar os desenvolvedores para problemas em seu código em tempo real. O Codeship combina isso com a prática de entrega contínua , que prevê a implantação regular de códigos uma vez que as mudanças passaram testes automatizados.
 
-Como configurar o projeto para rodar no Codeship?
-
-Para rodar nossos testes automatizados junto com o codeship teremos que configurar o chrome headless no nosso projeto feito em capybara + ruby
-
-O que é chrome headless e como instalar?
-
-Esse post do nosso amigo papito fala muito bem de como instalar e rodar os testes com Chrome Headless.
-
-Executando Testes no Capybara com Chrome Headless
-
-A nova versão (59) do Google Chrome, permite agora, a execução de testes em headless.
-medium.com	
-Depois de ter feitos os passos do post de acima agora vamos integrar o projeto junto com o codeship?
 
 Então vamos configurar nosso Codeship?
 
