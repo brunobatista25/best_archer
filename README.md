@@ -5,7 +5,7 @@ Então eu estou juntando referências de vários posts que encontro na internet.
 
 E também da própria documentação dos frameworks.
 
-RUBY:
+CONFIGURAÇÃO:
 1. [Configuração Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoRuby/configuracao_ruby.md);
 2. [Configuração Java](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoJava/configuracao_java.md);
 3. [Configuração Android](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoAndroid/configuracao_android.md);
