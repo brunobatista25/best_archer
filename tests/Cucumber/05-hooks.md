@@ -11,16 +11,16 @@ Before(Antes)
 Os hooks serão executados antes do primeiro passo de cada cenário. Eles serão executados na mesma ordem em que estão registrados.
 
 ```
-Before do
-  # Do something before each scenario.
+Before do 
+  # Faça algo antes de cada cenário. 
 end
 ```
 
 ```
-Before do |scenario|
-  # The +scenario+ argument is optional, but if you use it, you can get the title,
-  # description, or name (title + description) of the scenario that is about to be
-  # executed.
+Before do |cenário|
+  # O argumento + argumento + é opcional, mas se você usá-lo, você pode obter o título, 
+  a descrição ou o nome (título + descrição) do cenário que está prestes a ser 
+  executado # . 
   Rails.logger.debug "Starting scenario: #{scenario.title}"
 end
 ```
@@ -31,11 +31,11 @@ After(Depois)
 Os hooks serão executados após o último passo de cada cenário, mesmo quando houver etapas falhas, indefinidas, pendentes ou ignoradas. Eles correrão na ordem oposta da qual eles estão registrados.
 
 ```
-After do |scenario|
-  # Do something after each scenario.
-  # The +scenario+ argument is optional, but
-  # if you use it, you can inspect status with
-  # the #failed?, #passed? and #exception methods.
+After do |cenário|
+  # Faça algo depois de cada cenário. 
+  # O argumento + argumento + é opcional, mas 
+  # se você usá-lo, você pode verificar o status com 
+  # o #failed ?, #passed? e # métodos de exceção. 
 
   if scenario.failed?
     subject = "[Project X] #{scenario.exception.message}"
@@ -48,7 +48,7 @@ Aqui é outro exemplo, onde nós saímos no primeiro fracasso (pode ser útil em
 
 ```
 After do |s| 
-  # Tell Cucumber to quit after this scenario is done - if it failed.
+  # Diga ao Pepino para sair depois que este cenário for concluído - se ele falhar. 
   Cucumber.wants_to_quit = true if s.failed?
 end
 ```
@@ -60,7 +60,7 @@ Os hooks correrão "em torno" de um cenário. Isso pode ser usado para envolver 
 O exemplo a seguir causará que os cenários marcados com @fast falha se a execução demorar mais de 0,5 segundos:
 
 ```
-Around('@fast') do |scenario, block|
+Around('@fast') do |cenario, block|
   Timeout.timeout(0.5) do
     block.call
   end
@@ -75,7 +75,7 @@ Aviso: O bloqueio AfterStep não funciona com cenários que tenham backgrounds (
 
 ```
 AfterStep do |scenario|
-  # Do something after each step.
+ # Faça algo depois de cada passo. 
 end
 ```
 Tagged hooks(Ganchos marcados)
@@ -87,8 +87,8 @@ Para tags OR, passe as tags em uma única seqüência separada por vírgulas:
 
 ```
 Before('@cucumis, @sativus') do
-  # This will only run before scenarios tagged
-  # with @cucumis OR @sativus.
+   # Isso só será executado antes dos cenários marcados 
+  # com @cucumis OR @sativus. 
 end
 ```
 
@@ -96,8 +96,8 @@ Para tags AND, passe as tags como seqüências de tags separadas:
 
 ```
 Before('@cucumis', '~@sativus') do
-  # This will only run before scenarios tagged
-  # with @cucumis AND NOT @sativus.
+  # Isso só será executado antes dos cenários marcados 
+  # com @cucumis E NÃO @sativus. 
 end
 ```
 
@@ -105,8 +105,8 @@ Você cria condições de etiqueta complexas usando as tags OR e AND em:
 
 ```
 Before('@cucumis, @sativus', '@aqua') do
-  # This will only run before scenarios tagged
-  # with (@cucumis OR @sativus) AND @aqua 
+   # Isso só será executado antes dos cenários marcados 
+  # com (@cucumis OU @sativus) E @aqua  
 end
 ```
 
@@ -114,8 +114,8 @@ Exemplo após passo:
 
 ```
 AfterStep('@cucumis', '@sativus') do
-  # This will only run after steps within scenarios tagged
-  # with @cucumis AND @sativus.
+    # Isso só será executado após as etapas dentro de cenários marcados 
+  # com @cucumis AND @sativus. 
 end
 ```
 
@@ -140,10 +140,10 @@ Se você tiver um hooks, você só deseja executar uma vez, use uma variável gl
 
 ```
 Before do 
-  $dunit ||= false  # have to define a variable before we can reference its value
-  return $dunit if $dunit                  # bail if $dunit TRUE
-  step "run the really slow log in method" # otherwise do it.
-  $dunit = true                            # don't do it again.
+  $dunit ||= false  # tem que definir uma variável antes que possamos fazer referência ao seu its value
+  return $dunit if $dunit                  # bail se $ dunit TRUE 
+  step "run the really slow log in method" # caso contrário, faça isso. 
+  $dunit = true                            # não faça isso novamente. 
 end 
 ```
 
