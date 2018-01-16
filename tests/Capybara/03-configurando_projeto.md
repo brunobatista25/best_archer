@@ -29,7 +29,7 @@ Agora rode o comando
 bundle install
 ```
 
-Todas a gems serão instaladas e um outro arquivo sera criado automaticamente Gemfile.lok
+Todas a gems serão instaladas e um outro arquivo sera criado automaticamente Gemfile.lock
 
 ## Configurando o ENV.RB
 
@@ -84,7 +84,7 @@ Para usar o chrome basta usar o seguinte comando
 
 ```ruby
 Capybara.register_driver :selenium do |app|
-  Capybara::Selenium::Driver.new(app, :browser => :chrome)
+  Capybara::Selenium::Driver.new(app, browser: :chrome)
 end
 ```
 
@@ -94,20 +94,20 @@ Para usar o firefox basta usar o seguinte comando
 
 ```ruby
 Capybara.register_driver :selenium do |app|
-  Capybara::Selenium::Driver.new(app, :browser => :firefox)
+  Capybara::Selenium::Driver.new(app, browser: :firefox)
 end
 ```
 
  O arquivo env.rb ficará desse jeito:
 
- # Chrome
+ ## Chrome
 
 ```ruby
   require 'capybara'
   require 'selenium-webdriver'
   
   Capybara.register_driver :selenium do |app|
-    Capybara::Selenium::Driver.new(app, :browser => :chrome)
+    Capybara::Selenium::Driver.new(app, browser: :chrome)
   end
   
   Capybara.configure do |config|
@@ -117,14 +117,14 @@ end
   end
 ```
 
- #Firefox
+ ## Firefox
 
 ```ruby
   require 'capybara'
   require 'selenium-webdriver'
   
   Capybara.register_driver :selenium do |app|
-    Capybara::Selenium::Driver.new(app, :browser => :firefox)
+    Capybara::Selenium::Driver.new(app, browser: :firefox)
   end
   
   Capybara.configure do |config|
