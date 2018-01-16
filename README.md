@@ -31,7 +31,7 @@ E também da própria documentação dos frameworks.
 10. [Comandos TestNG](https://github.com/brunobatista25/best_archer/blob/master/tests/TestNG/comandos_testng.md);
 11. [Comandos Selenium com Kotlin](https://github.com/brunobatista25/best_archer/blob/master/tests/SeleniumKotlin/comandos_selenium_kotlin.md);
 
-## AUutomaçao de Api:
+## Automação de Api:
 
 1. [Comandos Httparty](https://github.com/brunobatista25/best_archer/blob/master/tests/Httparty/comandos_httparty.md);
 2. [Comandos Airborne](https://github.com/brunobatista25/best_archer/blob/master/tests/Airborne/comandos_airborne.md);
