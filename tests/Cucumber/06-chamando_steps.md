@@ -136,6 +136,8 @@ Dado / ^ existe um documento com conteúdo $ / do | pystring |
 end
 ```
 
+Vamos para o próximo post [Esquema do Cenário](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/07-esquema_cenario.md); 
+
 Referências:
 	
 https://github.com/cucumber/cucumber
