@@ -41,6 +41,9 @@ Para instalar o Chromedriver, digite o comando 
 npm install -g chromedriver
 ```
 
+GeckoDriver
+
+Gecko Driver é a conexão entre seus testes em Selenium e o programa Firefox. Clientes compatíveis para interagir com navegadores baseados em Gecko, ou seja, Mozilla Firefox para esta situação.
 
 Instalando ChromeDriver e GeckoDriver no Mac:
 
