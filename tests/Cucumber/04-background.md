@@ -35,7 +35,7 @@ Funcionalidade: Suporte de vários sites
 
 Para uma alternativa menos explícita ao background, verifique os ganchos com Tagged [Hooks](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/05-hooks.md);
 
-# Boas práticas para usar Background
+## Boas práticas para usar Background
 
 Não use "Background" para configurar o estado complicado, a menos que esse estado seja realmente algo que o cliente precisa saber.
 
@@ -53,6 +53,6 @@ Se a seção de fundo tiver escorregado na tela, você deve pensar em usar etapa
 
 Vamos para o próximo post [Hooks](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/05-hooks.md); 
 
-# Referências:
+## Referências:
 	
 https://github.com/cucumber/cucumber

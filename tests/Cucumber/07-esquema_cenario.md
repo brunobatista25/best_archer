@@ -57,6 +57,6 @@ Cenário Destaque : comer
   Então eu deveria ter 7 pepinos     # <à esquerda> substituídos por 7
   ```
   
-# Referências:
+## Referências:
 	
 https://github.com/cucumber/cucumber

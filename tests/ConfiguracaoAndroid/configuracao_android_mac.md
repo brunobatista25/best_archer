@@ -14,6 +14,6 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tool
 
 Por último, opcionalmente mas fortemente recomendado, instale o Git (opte por utilizar o Homebrew, para instalar a versão mais recente).
 
-# REFERÊNCIAS:
+## REFERÊNCIAS:
 
 http://www.rafaeltoledo.net/configurando-o-ambiente-de-desenvolvimento-tutorial-android-1/

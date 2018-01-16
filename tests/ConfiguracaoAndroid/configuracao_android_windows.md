@@ -30,6 +30,6 @@ Durante a instalação do Android Studio, também deve ter sido instalado o HAXM
 
 Por fim, opcional mas recomendado, instale o Git, que é hoje a ferramenta de versão mais utilizada.
 
-# REFERÊNCIAS:
+## REFERÊNCIAS:
 
 http://www.rafaeltoledo.net/configurando-o-ambiente-de-desenvolvimento-tutorial-android-1/

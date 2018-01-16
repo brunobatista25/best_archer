@@ -50,11 +50,11 @@ Cenário: Veja os últimos incidentes
   Quando eu vou para a página do incidente
 ```
 
-# Calling steps with multiline step arguments(Chamando etapas com argumentos de várias etapas)
+## Calling steps with multiline step arguments(Chamando etapas com argumentos de várias etapas)
 
 Às vezes, você quer chamar um passo que foi projetado para levar os argumentos da etapa Multiline , por exemplo:
 
-# Tables(Tabelas)
+## Tables(Tabelas)
 
 ```ruby
 # ruby 
@@ -114,7 +114,7 @@ Então / ^ Eu deveria ver os links: $ / do | links_table |
 end
 ```
 
-# Multiline Strings(Cordas Multilíneas)
+## Multiline Strings(Cordas Multilíneas)
 
 Para chamar um passo que leva uma string de várias linhas, como
 
@@ -138,6 +138,6 @@ end
 
 Vamos para o próximo post [Esquema do Cenário](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/07-esquema_cenario.md); 
 
-# Referências:
+## Referências:
 	
 https://github.com/cucumber/cucumber

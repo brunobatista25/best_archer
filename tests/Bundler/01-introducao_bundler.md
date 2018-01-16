@@ -4,7 +4,7 @@ O Bundler fornece um ambiente consistente para projetos Ruby, rastreando e insta
 
 Bundler é uma saída do inferno de dependência e garante que as gemas que você precisa estão presentes no desenvolvimento, estadiamento e produção. Começar o trabalho em um projeto é tão simples quanto bundle install.
 
-# Começando
+## Começando
 
 Começar com bundler é fácil! Abra uma janela do terminal e execute este comando:
 
@@ -21,7 +21,7 @@ gem 'rack', '~> 2.0.1'
 gem 'rspec'
 ```
 
-# Intalando as gems com bundle
+## Intalando as gems com bundle
 Instale todas as gemas necessárias das suas fontes especificadas:
 
 ```ruby
