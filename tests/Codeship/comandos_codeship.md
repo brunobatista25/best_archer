@@ -1,12 +1,12 @@
-#Mas primeiro vamos falar o que é a integração contínua?
+# Mas primeiro vamos falar o que é a integração contínua?
 
 A integração contínua é uma prática de desenvolvimento de software de DevOps em que os desenvolvedores, com frequência, juntam suas alterações de código em um repositório central. Depois disso, criações e testes são executados. Geralmente, a integração contínua se refere ao estágio de criação ou integração do processo de lançamento de software, além de originar um componente de automação (ex.: uma CI ou serviço de criação) e um componente cultural (ex.: aprender a integrar com frequência).
 
-#E qual principal objetivo da integração contínua?
+# E qual principal objetivo da integração contínua?
 
 Os principais objetivos da integração contínua são encontrar e investigar bugs mais rapidamente, melhorar a qualidade do software e reduzir o tempo que leva para validar e lançar novas atualizações de software.
 
-#O que é Codeship?
+# O que é Codeship?
 
 O Codeship é um serviço de entrega contínua hospedado que se concentra na velocidade, confiabilidade e simplicidade. Você configura o Codeship para criar e implantar seu aplicativo do GitHub para o cenário ou a plataforma de produção de sua escolha.
 
@@ -15,27 +15,27 @@ O serviço oferece uma variedade de poderosas opções de configuração. Atualm
 A prática de integração contínua envolve repetidos testes automatizados e fusão de código com notificações para alertar os desenvolvedores para problemas em seu código em tempo real. O Codeship combina isso com a prática de entrega contínua , que prevê a implantação regular de códigos uma vez que as mudanças passaram testes automatizados.
 
 
-#Então vamos configurar nosso Codeship?
+# Então vamos configurar nosso Codeship?
 
-#1- Passo
+# 1- Passo
 
 Crie uma conta no codeship é de graça:
 
 https://app.codeship.com/registrations/new?utm_source=NavBar
 
-#2- Passo
+# 2- Passo
 
 Escolha qual o repositório que você usa, no meu caso eu uso github, então irei usá-lo nos exemplos, mas o conceito é a mesma coisa para os outros repositórios.
 
-#3- Passo
+# 3- Passo
 
 Nesta tela você irá colocar o link do seu projeto, mesma coisa como se você fosse clonar o seu projeto. Basta copiar o link do seu pojeto e colar na página do codeship.
 
-#4- Passo
+# 4- Passo
 
 Nessa nossa aula iremos usa a versão básica
 
-#5- Passo
+# 5- Passo
 
 Vamos escolher qual linguagem usaremos no codeship,nesse post usaremos a linguagem Ruby
 
@@ -73,7 +73,7 @@ Setando a versão do ruby
 rvm use $(cat .ruby-version) –install
 ```
 
-#6- Passo
+# 6- Passo
 
 Depois de ter configurando o ambiente agora iremos configurar os comandos para executar os testes no segundo terminal abaixo.
 
@@ -112,7 +112,7 @@ Error — Quando alguma coisa do codeship deu erro ou falhou.
 
 Failed — Quando seus testes falharam.
 
-#Referências:
+# Referências:
 
 https://medium.com/@brunobatista101/aprenda-a-fazer-integra%C3%A7%C3%A3o-cont%C3%ADnua-dos-seus-testes-automatizados-com-capybara-codeship-6463f4e2209e
 

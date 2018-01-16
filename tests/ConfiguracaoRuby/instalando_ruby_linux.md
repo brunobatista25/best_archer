@@ -1,11 +1,11 @@
-#Como instalar Ruby no Ubuntu com Rbenv
+# Como instalar Ruby no Ubuntu com Rbenv
 
 O rbenv fornece suporte para trabalhar versões específicas do aplicativo do Ruby, permite alterar o Ruby global para cada usuário e permite usar uma variável de ambiente para substituir a versão do Ruby.
 
-#Pré-requisitos
+# Pré-requisitos
 Este tutorial irá levá-lo através do processo de instalação do Ruby via rbenv. Para seguir este tutorial, você precisa ter um servidor Ubuntu 14.xx ou 16.xx e o usuário comum (não root).
 
-#Update do Ubuntu e Dev Dependencies
+# Update do Ubuntu e Dev Dependencies
 
 ```ruby
 $ sudo apt-get update
@@ -47,13 +47,13 @@ rbenv ()
 }
 ```
 
-#Instalar Ruby Build
+# Instalar Ruby Build
 
 ```ruby
 $ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
-#Instalando o Ruby
+# Instalando o Ruby
 Este comando, deve carregar em cache a lista de versões disponíveis para instalação:
 
 ```ruby
@@ -84,6 +84,6 @@ Deverá aparece algo como:
 ruby 2.4.1
 ```
 
-#REFERÊNCIAS:
+# REFERÊNCIAS:
 
 https://medium.com/@papito/como-instalar-ruby-com-rbenv-no-ubuntu-a75d1999362b

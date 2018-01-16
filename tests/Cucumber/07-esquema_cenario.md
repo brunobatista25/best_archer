@@ -1,4 +1,4 @@
-#Scenario Outlines(Esquema do Cenário)
+# Scenario Outlines(Esquema do Cenário)
 
 Copiar e colar cenários para usar diferentes valores rapidamente torna-se tedioso e repetitivo:
 
@@ -57,6 +57,6 @@ Cenário Destaque : comer
   Então eu deveria ter 7 pepinos     # <à esquerda> substituídos por 7
   ```
   
-#Referências:
+# Referências:
 	
 https://github.com/cucumber/cucumber

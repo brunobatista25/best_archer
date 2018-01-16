@@ -1,4 +1,4 @@
-#Opções para bundle update
+# Opções para bundle update
 
 ```ruby
 --group=<name>, -g=[<name>]

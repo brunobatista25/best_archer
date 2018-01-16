@@ -1,4 +1,4 @@
-#Instalação do Cucumber
+# Instalação do Cucumber
 
 Instalar o cucumber e bem simples, basta abrir o terminal e digitar o seguinte comando:
 
@@ -34,6 +34,6 @@ Onde nela colocamos os arquivos .feature
 
 Vamos paro proximo post [Comandos Given When Then And But](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/03-given_when_then_but_and.md);
 
-#Referências:
+# Referências:
 	
 https://github.com/cucumber/cucumber

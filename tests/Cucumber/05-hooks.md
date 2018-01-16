@@ -121,7 +121,7 @@ end
 
 Pense duas vezes antes de usar esse recurso, pois o que quer que aconteça nos hooks é invisível para as pessoas que apenas lêem os recursos. Você deve considerar usar o plano de fundo como uma alternativa mais explícita se a configuração for legível por pessoas não-técnicas.
 
-#Global hooks(Ganchos globais)
+# Global hooks(Ganchos globais)
 
 Se você quiser que algo aconteça uma vez antes de qualquer cenário é executado - basta colocar esse código no nível superior em seu env.rb arquivo (ou qualquer outro arquivo em seu features/support diretório. Use Kernel#at_exit para o desmontagem global. Exemplo:
 
@@ -147,7 +147,7 @@ Before do
 end 
 ```
 
-#AfterConfiguration(Após configuração)
+# AfterConfiguration(Após configuração)
 
 Você também pode fornecer um AfterConfigurationgancho que será executado após o Cucumber ter sido configurado. O bloco que você fornecerá será passado a configuração do cucumber (uma instância de Cucumber::Cli::Configuration). Exemplo:
 
@@ -161,7 +161,7 @@ Este hooks será executado apenas uma vez; após o suporte ter sido carregado, m
 
 Vamos para o próximo post [Chamando steps dentro de step definitions](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/06-chamando_steps.md); 
 
-#Referências:
+# Referências:
 	
 https://github.com/cucumber/cucumber
 

@@ -1,11 +1,10 @@
-#Instalando os Drivers
+# Instalando os Drivers
 
-
-#Chromedriver
+# Chromedriver
 
 O ChromeDriver é um servidor autônomo que implementa o protocolo de fio da WebDriver para o Chromium, que está disponível para o Chrome no Android e no Chrome na área de trabalho (Mac, Linux, Windows e ChromeOS)
 
-#Instalando ChromeDriver e GeckoDriver no Windows 
+# Instalando ChromeDriver e GeckoDriver no Windows 
 
 Uma dica para instalar no windows de forma global e usando o npm:
 
@@ -41,11 +40,11 @@ Para instalar o Chromedriver, digite o comando 
 npm install -g chromedriver
 ```
 
-#GeckoDriver
+# GeckoDriver
 
 Gecko Driver é a conexão entre seus testes em Selenium e o programa Firefox. Clientes compatíveis para interagir com navegadores baseados em Gecko, ou seja, Mozilla Firefox para esta situação.
 
-#Instalando ChromeDriver e GeckoDriver no Mac:
+# Instalando ChromeDriver e GeckoDriver no Mac:
 
 A instalação no mac e bem simples bastar usar o homebrew e usar o seguinte comando: 
 
@@ -61,7 +60,7 @@ Para instalar o geckodriver basta digitar no terminal
 brew install geckodriver
 ```
 
-#Instalando ChromeDriver e GeckoDriver no Linux:
+# Instalando ChromeDriver e GeckoDriver no Linux:
 
 Para instalar o chrome driver e geckodriver no linux pode se usar o mesmo passo da instalação do windows então basta instalar o npm e depois usar os seguintes comandos:
 
@@ -79,6 +78,6 @@ npm install -g chromedriver
 
 Vamos para o próximo post [Configuração](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/03-configurando_projeto.md);
 
-#REFERÊNCIAS:
+# REFERÊNCIAS:
 
 https://github.com/teamcapybara/capybara

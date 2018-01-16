@@ -1,4 +1,4 @@
-#Configuração no Linux
+# Configuração no Linux
 
 No Linux, por possuirmos um gerenciador de pacotes, a coisa fica um pouco mais fácil. Caso você esteja utilizando o Ubuntu / Linux Mint, para preparar nosso ambiente, basta instalar os seguintes pacotes:
 
@@ -24,6 +24,6 @@ export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 
 Por fim, é opcional porém recomendada, a instalação do Git para controle de versão dos nossos projetos.
 
-#REFERÊNCIAS:
+# REFERÊNCIAS:
 
 http://www.rafaeltoledo.net/configurando-o-ambiente-de-desenvolvimento-tutorial-android-1/
