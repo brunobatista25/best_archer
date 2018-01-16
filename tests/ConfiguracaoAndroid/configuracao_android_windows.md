@@ -1,4 +1,4 @@
-Configuração no Windows
+#Configuração no Windows
 
 O primeiro passo para a instalação do ambiente no Windows, é o download da JDK (Java Development Kit). Ela nos fornecerá a base de ferramentas para o desenvolvimento Java, que será utilizada também para o desenvolvimento dos apps Android também. Você pode baixar a JDK no site da Oracle. A instalação deve ocorrer sem problemas.
 
@@ -30,6 +30,6 @@ Durante a instalação do Android Studio, também deve ter sido instalado o HAXM
 
 Por fim, opcional mas recomendado, instale o Git, que é hoje a ferramenta de versão mais utilizada.
 
-REFERÊNCIAS:
+#REFERÊNCIAS:
 
 http://www.rafaeltoledo.net/configurando-o-ambiente-de-desenvolvimento-tutorial-android-1/

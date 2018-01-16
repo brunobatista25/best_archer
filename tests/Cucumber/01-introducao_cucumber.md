@@ -1,11 +1,11 @@
-Introdução ao Cucumber
+#Introdução ao Cucumber
 
 Irei falar de um do frameworks mais conhecidos quando o assunto e BDD(Behaviour-Driven-Development ou Desenvolvimento Guiado por Comportamento). Que vem sendo muito utilizado atualmente, principalmente pela galerinha que faz testes automatizados.
 
-Batista o que é BDD?
+#Batista o que é BDD?
 
 
-Introdução ao BDD.
+#Introdução ao BDD.
 
 O BDD foi concebido por Dan North, a partir de uma insatisfação com a falta de informações dos testes de TDD (“Test driven development”). Dan queria saber mais sobre o que deveria ser testado e como esse teste deveria ser realizado. A ideia principal do BDD é possibilitar que as funcionalidades do sistema sejam escritas em linguagem natural.
 
@@ -29,7 +29,6 @@ Dado que eu tenho um usuário e senha
 Quando eu faço login
 Então eu verifico se estou logado na aplicação
 ```
-
 
 ```ruby
 #Language: pt-br <é usado par que a linguagem gherkin identifique o idioma português >
@@ -57,7 +56,7 @@ A linguagem Gherkin é independente da linguagem pode fazer em java ,ruby , pyth
 Ex: fazerLogin.feature
 ```
 
-Vantagens
+#Vantagens
 
 Maior entendimento do requisito proposto.
 Menos tempo investido em escrita de casos de testes.
@@ -67,7 +66,7 @@ Fácil manutenção de templates.
 
 Vamos para o próximo post [Instalação do Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/02-instalacao_cucumber.md);
 
-Referências:
+#Referências:
 	
 https://github.com/cucumber/cucumber
 

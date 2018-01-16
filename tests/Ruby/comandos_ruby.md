@@ -1,6 +1,7 @@
-Aqui iremos falar um pouco sobre o Ruby básico
+#Aqui iremos falar um pouco sobre o Ruby básico
 
-Primeira parte é comandos básicos de Ruby.
+#Primeira parte é comandos básicos de Ruby.
+
 1. [Hello World](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/01-hello_world.md);
 2. [Entradas e Saídas](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/02-entrada_e_saida.md);
 3. [Variáveis e Primitivos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/03-variaveis_e_primitivos.md);
@@ -21,7 +22,7 @@ Primeira parte é comandos básicos de Ruby.
 18. [Operadores de Intervalo](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula18.md);
 19. [Repetições de Times](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula19.md);
 
-Segunda parte é sobre linguagem Orientado a Objeto com Ruby.
+#Segunda parte é sobre linguagem Orientado a Objeto com Ruby.
 
 1. [Classe](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyOrientadoObjeto/aula1.md);
 2. [Definir Metódos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyOrientadoObjeto/aula2.md);
@@ -38,8 +39,7 @@ Segunda parte é sobre linguagem Orientado a Objeto com Ruby.
 13. [Mixins](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyOrientadoObjeto/aula13.md);
 14. [Polimorfismo duck typing](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyOrientadoObjeto/aula14.md);
 
-
-Terceira parte é uns extras. 
+#Terceira parte é uns extras. 
 
 1. [Reabrir Classes](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/aula1.md);
 2. [Slipt](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/aula2.md);

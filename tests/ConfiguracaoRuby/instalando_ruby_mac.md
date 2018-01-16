@@ -1,4 +1,6 @@
-Instalando Homebrew
+#Instalando Ruby on Mac
+
+#Instalando Homebrew
 Primeiro, precisamos instalar o Homebrew . O Homebrew nos permite instalar e compilar pacotes de software para MacOS.
 
 O Homebrew vem com um script de instalação muito simples. Quando solicitar que você instale o XCode CommandLine Tools, diga sim.
@@ -9,7 +11,7 @@ Agora abra o Terminal e execute o seguinte comando:
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Instalando Ruby
+#Instalando Ruby
 Agora que temos o Homebrew instalado, podemos usá-lo para instalar o Ruby. Nós vamos usar o rbenv para instalar e gerenciar nossas versões do Ruby.
 
 Para fazer isso, execute os seguintes comandos em seu Terminal:
@@ -25,7 +27,7 @@ ruby -v
 gem install bundler
 ```
 
-Instalando Rails
+#Instalando Rails
 Instalar Rails é muito simples. Executa o seguinte comando:
 
 ```ruby
@@ -45,6 +47,6 @@ rails -v
 # Rails 5.1.4
 ```
 
-REFERÊNCIAS:
+#REFERÊNCIAS:
 
 https://medium.com/@papito/instalando-o-ruby-no-macos-435f451b86a8

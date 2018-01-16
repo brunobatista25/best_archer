@@ -1,4 +1,4 @@
-Opções do bunlde install
+#Opções do bunlde install
 
 Para aplicar qualquer um --binstubs, --deployment, --path, ou --withoutcada vez que bundle installé executado, usar bundle config(ver pacote-config (1) ).
 

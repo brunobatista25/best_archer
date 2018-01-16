@@ -1,4 +1,4 @@
-Configuração no OSX
+#Configuração no OSX
 
 No OSX (Mac), a instalação é semelhante a que fizemos para o Windows. Primeiramente, baixe a JDK do site da Oracle. A instalação deve ocorrer sem maiores problemas, bastando seguir o wizard com o passo a passo da instalação.
 
@@ -14,6 +14,6 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tool
 
 Por último, opcionalmente mas fortemente recomendado, instale o Git (opte por utilizar o Homebrew, para instalar a versão mais recente).
 
-REFERÊNCIAS:
+#REFERÊNCIAS:
 
 http://www.rafaeltoledo.net/configurando-o-ambiente-de-desenvolvimento-tutorial-android-1/

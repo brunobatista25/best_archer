@@ -1,12 +1,12 @@
-HOOKS(Ganchos)
+#Hooks(Ganchos)
 
 Cucumber fornece uma série de hooks que nos permitem executar blocos em vários pontos no ciclo de teste de cucumber. Você pode colocá-los no seu support/env.rb arquivo ou em qualquer outro arquivo no support diretório, por exemplo, em um arquivo chamado support/hooks.rb. Não há associação entre onde o hooks é definido e qual cenário / passo é executado, mas você pode usar hooks marcados (veja abaixo) se você quiser mais controle de grão fino.
 
 Todos os hooks definidos são executados sempre que ocorre o evento relevante.
 
-Scenario hooks(Ganchos de cenário)
+#Scenario hooks(Ganchos de cenário)
 
-Before(Antes)
+#Before(Antes)
 
 Os hooks serão executados antes do primeiro passo de cada cenário. Eles serão executados na mesma ordem em que estão registrados.
 
@@ -25,8 +25,7 @@ Before do |cenário|
 end
 ```
 
-
-After(Depois)
+#After(Depois)
 
 Os hooks serão executados após o último passo de cada cenário, mesmo quando houver etapas falhas, indefinidas, pendentes ou ignoradas. Eles correrão na ordem oposta da qual eles estão registrados.
 
@@ -53,7 +52,7 @@ After do |s|
 end
 ```
 
-Around(Em torno)
+#Around(Em torno)
 
 Os hooks correrão "em torno" de um cenário. Isso pode ser usado para envolver a execução de um cenário em um bloco. O gancho Around ganha um objeto de cenário e um objeto de bloco (Proc). O cenário será executado quando você invoca block. call.
 
@@ -69,7 +68,7 @@ end
 
 Você pode querer dar uma olhada no SystemTimer se desejar mais confiável timeout.
 
-Step hooks(Gancho de passo)
+#Step hooks(Gancho de passo)
 
 Aviso: O bloqueio AfterStep não funciona com cenários que tenham backgrounds (cucumber 0.3.11)
 
@@ -78,7 +77,8 @@ AfterStep do |scenario|
  # Faça algo depois de cada passo. 
 end
 ```
-Tagged hooks(Ganchos marcados)
+
+#Tagged hooks(Ganchos marcados)
 
 Às vezes, você pode querer que um determinado hooks seja executado apenas para determinados cenários. Isto pode ser conseguido através da associação a Before, After, Aroundou AfterStep hooks com uma ou mais tag . Você pode tag OR e AND do mesmo modo que você pode ao executar Cucumber a partir da linha de comando. 
 Exemplos:
@@ -121,7 +121,7 @@ end
 
 Pense duas vezes antes de usar esse recurso, pois o que quer que aconteça nos hooks é invisível para as pessoas que apenas lêem os recursos. Você deve considerar usar o plano de fundo como uma alternativa mais explícita se a configuração for legível por pessoas não-técnicas.
 
-Global hooks(Ganchos globais)
+#Global hooks(Ganchos globais)
 
 Se você quiser que algo aconteça uma vez antes de qualquer cenário é executado - basta colocar esse código no nível superior em seu env.rb arquivo (ou qualquer outro arquivo em seu features/support diretório. Use Kernel#at_exit para o desmontagem global. Exemplo:
 
@@ -147,7 +147,7 @@ Before do
 end 
 ```
 
-AfterConfiguration(Após configuração)
+#AfterConfiguration(Após configuração)
 
 Você também pode fornecer um AfterConfigurationgancho que será executado após o Cucumber ter sido configurado. O bloco que você fornecerá será passado a configuração do cucumber (uma instância de Cucumber::Cli::Configuration). Exemplo:
 
@@ -161,7 +161,7 @@ Este hooks será executado apenas uma vez; após o suporte ter sido carregado, m
 
 Vamos para o próximo post [Chamando steps dentro de step definitions](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/06-chamando_steps.md); 
 
-Referências:
+#Referências:
 	
 https://github.com/cucumber/cucumber
 
