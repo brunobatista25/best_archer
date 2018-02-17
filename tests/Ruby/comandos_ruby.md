@@ -18,9 +18,7 @@
 14. [Hashes](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/14-hashes.md);
 15. [Simbolos](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/15-simbolos.md);
 16. [Iterador Each](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/16-iterador_each.md);
-17. [Each](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula17.md);
-18. [Operadores de Intervalo](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula18.md);
-19. [Repetições de Times](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/aula19.md);
+17. [Operadores de Intervalo](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyBasico/17-operadores_de_intervalo.md);
 
 # Segunda parte é sobre linguagem Orientado a Objeto com Ruby.
 
