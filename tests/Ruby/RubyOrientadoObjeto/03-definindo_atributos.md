@@ -1,4 +1,4 @@
-#Atributos
+# Atributos
 
 Atributos, também conhecidos como variáveis de instância, em Ruby são sempre privados e começam com @. Não há como alterá-los de fora da classe; apenas os métodos de um objeto podem alterar os seus atributos (encapsulamento!).
 
