@@ -1,44 +1,60 @@
+# Comandos gem
 
+```ruby
 gem list
+```
 
-lista todas as gems instaladas no seu computador
+Lista todas as gems instaladas no seu computador.
 
-
+```ruby
 gem list <nome da gem>
+```
 
-lista todas as gems instaladas com esse nome
+Lista todas as gems instaladas com esse nome.
 
-
+```ruby
 gem list <nome da gem> --remote
+```
 
-busca la no site da ruby gem se procura se tem alguma gem com esse nome
+Busca la no site da ruby gem se procura se tem alguma gem com esse nome.
 
+```ruby
 gem list <nome da gem> --remote --all
+```
 
-busca la no site da ruby gem se procura se tem alguma gem com esse nome e traz todas as versoes
+Busca la no site da ruby gem se procura se tem alguma gem com esse nome e traz todas as versões.
 
+```ruby
 gem install faker
+```
 
-instalando a faker
+Instalando a faker
 
-
+```ruby
 gem install faker -v 1.0.0
+```
 
-instalando a faker com uma versao anterios
+Instalando a faker com uma versão anteriores
 
-
+```ruby
 gem uninstall <gem>
+```
 
-desinstala uma gem
+Desinstala uma gem
 
+```ruby
 gem uninstall <gem> --version 1.0.0 ou -v 1.0.0
+```
 
-desinstala uma versao gem
+Desinstala uma versão gem
 
+```ruby
 gem cleanup -d 
+```
 
-mostra qual gems podem ser desisntaladas do sistema por serem antigas
+Mostra qual gems podem ser desinstaladas do sistema por serem antigas
 
+```ruby
 # Aqui estou dizendo a fonte de onde vou pegar a gems.
 source 'https://rubygems.org'
 
@@ -52,22 +68,41 @@ gem 'rspec'
 gem 'rubocop'
 gem 'selenium-webdriver'
 gem 'site_prism'
+```
 
-# se quiserem usar uma determinada versão 
+# Se quiserem usar uma determinada versão 
 
-# gem faker '1.0.0'
-# gem faker '>=1.0.0' instala uma versão maior ou igual a 1.0.0
-# gem faker '~>1.0.0' pode variar a instalação mas nao passa de 1.1.1
-# gem faker '~>1.6' pode variar a instalação mas nao passa de 2.0
+```ruby
+gem faker '1.0.0'
+```
 
-#1.0.0
-#major.minor.path
+Instala uma versão maior ou igual a 1.0.0
 
-#quando a uma mudança muito grande no projeto.
-#1 = major
+```ruby
+gem faker '>=1.0.0' 
+```
 
-#quando a alguma nova funcionalidade ou classe método etc..
-#0 = minor
+Pode variar a instalação mas nao passa de 1.1.1
+```ruby
+# gem faker '~>1.0.0' 
+```
 
-#path e para melhorias do software
-#0 = path
+Pode variar a instalação mas nao passa de 2.0.
+
+```ruby
+# gem faker '~>1.6' 
+```
+
+# Falando sobre atualizações das gems
+ 
+1.0.0
+major.minor.path
+
+Quando a uma mudança muito grande no projeto.
+1 = major
+
+Quando a alguma nova funcionalidade ou classe método etc..
+0 = minor
+
+Path e para melhorias do software
+0 = path
