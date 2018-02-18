@@ -1,4 +1,4 @@
-Interador each
+# Interador each
 
 Each Iterator: Eu gosto bastante do iterador each. É bem simples e expressivo. Para uma lista de valores, vamos iterar passando 1 por 1 dentro do bloco do iterador. Dentro dele podemos usar a variável definida.
 
