@@ -16,6 +16,10 @@ E também da própria documentação dos frameworks.
 1. [Ruby Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
 2. [Java Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Java/java_basico.md);
 3. [C# Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/C#/C#_basico.md);
+4. [Javascript Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Javascript/javascript_basico.md);
+5. [Phyton Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Phyton/phyton_basico.md);
+6. [Go Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Go/go_basico.md);
+
 
 ## Automação web:
 
