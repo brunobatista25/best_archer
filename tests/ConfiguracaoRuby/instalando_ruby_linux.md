@@ -54,7 +54,7 @@ $ rbenv install -l
 Agora instale a versão desejada (eu escolhe a versão 2.4.1)
 
 ```ruby
-$ rbenv install 2.4.1
+$ rbenv install 2.4.2
 ```
 
 Com o comando abaixo, você define a versão global do Ruby no sistema
