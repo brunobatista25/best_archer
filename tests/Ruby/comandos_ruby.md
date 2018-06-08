@@ -36,12 +36,3 @@
 12. [Módulos - parte II](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyOrientadoObjeto/aula12.md);
 13. [Mixins](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyOrientadoObjeto/aula13.md);
 14. [Polimorfismo duck typing](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/RubyOrientadoObjeto/aula14.md);
-
-# Terceira parte é uns extras. 
-
-1. [Reabrir Classes](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/aula1.md);
-2. [Slipt](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/aula2.md);
-3. [Gems](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/03-gems.md);
-4. [Blunder](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/aula4.md);
-5. [Open](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/aula5.md);
-6. [Argv](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/Extras/aula6.md);

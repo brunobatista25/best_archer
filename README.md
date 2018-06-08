@@ -20,7 +20,7 @@ E também da própria documentação dos frameworks.
 
 ## TDD com:
 2. [Comandos Rspec](https://github.com/brunobatista25/best_archer/blob/master/tests/Rspec/comandos_rspec.md);
-2. [Comandos Minitest](https://github.com/brunobatista25/best_archer/blob/master/tests/CSS/comandos_css.md);
+2. [Comandos Minitest](https://github.com/brunobatista25/best_archer/blob/master/tests/MiniTest/comandos_minitest.md);
 
 ## BDD com:
 
