@@ -20,33 +20,18 @@ Para fazer isso, execute os seguintes comandos em seu Terminal:
 brew install rbenv ruby-build
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
 source ~/.bash_profile
-# Instalando Ruby 2.4.3
-rbenv install 2.4.3
-rbenv global 2.4.3
+```
+
+# Instalando Ruby 2.4.2
+```
+rbenv install 2.4.2
+```
+
+```
+rbenv global 2.4.2
+```
+
+```
 ruby -v
-gem install bundler
 ```
 
-## Instalando Rails
-Instalar Rails é muito simples. Executa o seguinte comando:
-
-```ruby
-gem install rails -v 5.1.4
-```
-
-Agora precisamos liberar acesso ao executável do Rails, para isso bastar rodar o seguinte comando:
-
-```ruby
-rbenv rehash
-```
-
-Para verificar se deu tudo certo:
-
-```ruby
-rails -v
-# Rails 5.1.4
-```
-
-## REFERÊNCIAS:
-
-https://medium.com/@papito/instalando-o-ruby-no-macos-435f451b86a8
