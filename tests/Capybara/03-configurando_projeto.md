@@ -13,7 +13,6 @@ Agora crie um arquivo  chamado Gemfile sem nenhuma extensão, agora dentro do ar
 source 'http://rubygems.org'
 
 gem 'capybara'
-gem 'chromedriver-helper'
 gem 'selenium-webdriver'
 ```
 
@@ -74,64 +73,66 @@ Dentro deste mesmo arquivo iremos colocar a configuração de qual navegador ire
 
 ## Chrome
 
-OBS: para usar o chrome e preciso dar instalar a seguinte gem:
 
-```ruby
-gem 'chromedriver-helper'
+Para usar o chrome basta usar a seguinte configuração
+
+```
+require 'capybara'
+require 'selenium-webdriver'
+
+Capybara.configure do |config|
+  config.default_driver = :selenium_chrome
+  config.app_host = "https://www.google.com/"
+  config.default_max_wait_time = 30
+end
 ```
 
-Para usar o chrome basta usar o seguinte comando
+ou
 
 ```ruby
+require 'capybara'
+require 'selenium-webdriver'
+
 Capybara.register_driver :selenium do |app|
   Capybara::Selenium::Driver.new(app, browser: :chrome)
 end
+
+Capybara.configure do |config|
+  config.default_driver = :selenium
+  config.app_host = "https://www.google.com/"
+  config.default_max_wait_time = 30
+end
+
 ```
 
 ## Firefox
 
-Para usar o firefox basta usar o seguinte comando
+Para usar o firefox basta usar a seguinte configuração
 
-```ruby
-Capybara.register_driver :selenium do |app|
-  Capybara::Selenium::Driver.new(app, browser: :firefox)
+```
+require 'capybara'
+require 'selenium-webdriver'
+
+Capybara.configure do |config|
+  config.default_driver = :selenium
+  config.app_host = "https://www.google.com/"
+  config.default_max_wait_time = 30
 end
 ```
 
- O arquivo env.rb ficará desse jeito:
-
- ## Chrome
-
 ```ruby
-  require 'capybara'
-  require 'selenium-webdriver'
-  
-  Capybara.register_driver :selenium do |app|
-    Capybara::Selenium::Driver.new(app, browser: :chrome)
-  end
-  
-  Capybara.configure do |config|
-    config.default_driver = :selenium
-    config.app_host = "https://www.google.com/"
-    config.default_max_wait_time = 30
-  end
-```
+require 'capybara'
+require 'selenium-webdriver'
 
- ## Firefox
+Capybara.register_driver :selenium do |app|
+  Capybara::Selenium::Driver.new(app, browser: :firefox)
+end
 
-```ruby
-  require 'capybara'
-  require 'selenium-webdriver'
-  
-  Capybara.register_driver :selenium do |app|
-    Capybara::Selenium::Driver.new(app, browser: :firefox)
-  end
-  
-  Capybara.configure do |config|
-    config.default_driver = :selenium
-    config.app_host = "https://www.google.com/"
-    config.default_max_wait_time = 30
-  end
+Capybara.configure do |config|
+  config.default_driver = :selenium
+  config.app_host = "https://www.google.com/"
+  config.default_max_wait_time = 30
+end
 ```
 
 ## Referências:
