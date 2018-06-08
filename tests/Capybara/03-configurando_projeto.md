@@ -76,7 +76,7 @@ Dentro deste mesmo arquivo iremos colocar a configuração de qual navegador ire
 
 Para usar o chrome basta usar a seguinte configuração
 
-```
+```ruby
 require 'capybara'
 require 'selenium-webdriver'
 
@@ -109,7 +109,7 @@ end
 
 Para usar o firefox basta usar a seguinte configuração
 
-```
+```ruby
 require 'capybara'
 require 'selenium-webdriver'
 
