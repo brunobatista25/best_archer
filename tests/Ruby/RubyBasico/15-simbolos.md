@@ -1,4 +1,4 @@
-Símbolo
+#Símbolo
 
 Um símbolo (Symbol) se parece com um nome de variável mas é prefixado com dois pontos (:). Exemplos: :action, :line_items. Você não precisa pré-declarar um símbolo e garante-se que eles sejam únicos. Não há necessidade de se atribuir algum tipo de valor para um símbolo – Ruby cuida disso para você. A linguagem também garante que não importa onde apareça em seu programa, um símbolo particular terá sempre o mesmo valor.
 
@@ -108,7 +108,3 @@ Podemos também transformar uma string em um símbolo e vice-versa:
 ```
 
 Símbolos são particularmente úteis quando se cria hashes e você quer distinguir chaves e valores. Veja o tópico usando símbolos como chaves hash para exemplos práticos.
-
-REFERÊNCIAS:
-
-https://guru-sp.github.io/tutorial_ruby/simbolos.html

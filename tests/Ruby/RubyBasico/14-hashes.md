@@ -1,4 +1,4 @@
-Hashes (dicionários)
+#Hashes (dicionários)
 
 Hashes (também conhecidos como arrays associativos, mapas ou dicionários) são similares aos arrays a medida que são coleções indexadas de referências a objetos. No entanto, enquanto o o array é indexado por inteiros (semelhante a um índice remissivo), o hash pode ser indexado com objetos de qualquer tipo: strings, expressões regulares e assim por diante. Quando você armazena um valor em um hash, você na verdade fornece dois objetos – o índice (normalmente chamado de chave) e o valor desse índice. É possível recuperar os valores utilizando o índice do hash. Os valores do hash, assim como os índices, podem ser objetos de qualquer tipo.
 
@@ -75,7 +75,3 @@ A saída é:
 ```
 
 Ou seja, exatamente o mesmo que ocorreu na execução do programa codigo_exemplo.rb.
-
-REFERÊNCIAS:
-
-https://guru-sp.github.io/tutorial_ruby/hashes-ruby.html

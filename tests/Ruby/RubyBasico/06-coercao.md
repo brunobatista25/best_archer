@@ -1,11 +1,13 @@
 Coerção ou cast
 
-Serve para transformar uma variável para inteiro,float ou string
+Serve para transformar uma variável para inteiro,float,string,simbolo ou array
 
 ```ruby
-to_i - Converte a variável interiro
-to_f - Converte a variável float
-to_s - Converte a variável para string
+to_i #Converte a variável inteiro
+to_f #Converte a variável float
+to_s #Converte a variável para string
+to_sym #Converte a variável para simbolo
+to_a #Converte a variável para array
 ```
 
 Exemplo:

@@ -29,7 +29,3 @@ puts num # => undefined local variable or method `n' for main:Object (NameError)
 ```
 
 A variável num continuará “viva” após o bloco de iteração do loop for. Enquanto para o iterador each essa variável não existirá mais fora de seu escopo.
-
-REFERÊNCIAS:
-
-https://medium.com/trainingcenter/ruby-101-o-b%C3%A1sico-260e8605962

@@ -1,4 +1,4 @@
-Operadores logicos
+# Operadores logicos
 
 Os operadores lógicos são usados ​​para comparar duas expressões e retornar um resultado booleano (verdadeiro ou falso). Esses operadores juntam essas expressões retornando verdadeiro ou falso.
 

@@ -1,4 +1,6 @@
-Operadores Relacionais
+# Operadores Relacionais
+
+```
  >  maior
  <  menor
  >= maior ou igual
@@ -9,6 +11,7 @@ Operadores Relacionais
  -1(quando o elemento da direita e maior que a esquerda) ,
  0(quando os elementos são iguais) 
  1(quando o elemento da esquerda e maior que da direita))
+```
 
 ```ruby
 puts "2 é maior que 1? #{2 > 1}"

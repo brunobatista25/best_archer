@@ -1,14 +1,14 @@
-Estruturas condicionais
+# Estruturas condicionais
 
-if elsif else:
+## if elsif else:
 
 IF(se) a condição for atendida faça algo, ELSIF (senão, se) outra condição for atendida faça algo, ELSE (senão) faça algo, END (fim da condição).
 
-Unless:
+## Unless:
 
 O controle unless é como a estrutura if, só que negativa, ao contrário do if, basicamente o uso é o mesmo do if só que ao contrário, apenas isso. 
 
-Case when
+## Case when
 
 Avalia uma lista de condições e retorna uma das várias expressões de resultado possíveis, a expressão CASE tem dois formatos: CASE simples compara uma expressão com um conjunto de expressões simples para determinar o resultado e a expressão CASE que avalia um conjunto de expressões booleanas para determinar o resultado. Ambos os formatos suportam um argumento ELSE opcional.
 

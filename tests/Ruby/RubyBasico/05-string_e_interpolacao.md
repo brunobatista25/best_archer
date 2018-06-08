@@ -33,3 +33,9 @@ puts "Beleza? #{v2}"
 
 puts "A soma de 1 + 2 é: #{1 + 2}"
 ```
+
+Podemos concatenar tambem com o <<
+
+```ruby
+puts "Beleza?" << "Brunao"
+```
