@@ -1,7 +1,7 @@
 # SitePrism
 
 1. [Introdução](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/01-introducao.md);
-2. [Instalando Drivers](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/02-instalando_siteprism.md);
+2. [Instalando SitePrism](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/02-instalando_siteprism.md);
 3. [Acessando páginas/url](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/03-paginas.md);
 4. [Trabalhando com elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/04-elementos.md);
 5. [Lista de elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/05-lista_de_elementos.md);

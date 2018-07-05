@@ -1,5 +1,5 @@
 # best_archer
-Criei esse repositório para reunir todos os comandos das principais ferramentas de automação.
+Criei esse repositório para reunir todos os comandos das principais ferramentas de automação em Ruby.
 
 Então eu estou juntando referências de vários posts que encontro na internet.
 
@@ -73,6 +73,13 @@ E também da própria documentação dos frameworks.
 6. [Projeto Watir + Cucumber + Ruby](https://github.com/brunobatista25/Cucumber_watir); (EM BREVE...)
 
 
+## Sites para fazer automação Web/API/Mobile:
+
+1. [Site para treinar Automação Web](https://automacaocombatista.herokuapp.com/);
+
+2. [Api para treinar Automação de API](EM BREVE...);
+
+3. [Site com o apk/ipa para treinar Automação Mobile](EM BREVE...);
 
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
