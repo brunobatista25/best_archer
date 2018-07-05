@@ -29,9 +29,9 @@ E também da própria documentação dos frameworks.
 ## Automação web:
 
 1. [Comandos Capybara](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/comandos_capybara.md);
-3. [Comandos SitePrism](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/comandos_siteprism.md);
-4. [Comandos Watir](https://github.com/brunobatista25/best_archer/blob/master/tests/Watir/comandos_watir.md);
-5. [Comandos SeleniumWebdriver](https://github.com/brunobatista25/best_archer/blob/master/tests/SeleniumWebdriver/comandos_webdriver.md);
+2. [Comandos SitePrism](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/comandos_siteprism.md);
+3. [Comandos Watir](https://github.com/brunobatista25/best_archer/blob/master/tests/Watir/comandos_watir.md);
+4. [Comandos SeleniumWebdriver](https://github.com/brunobatista25/best_archer/blob/master/tests/SeleniumWebdriver/comandos_webdriver.md);
 
 ## Automação de Api:
 
@@ -42,7 +42,7 @@ E também da própria documentação dos frameworks.
 ## Mobile:
 
 1. [Comandos Appium](https://github.com/brunobatista25/best_archer/blob/master/tests/Appium/comandos_appium.md);
-3. [Comandos Calabash](https://github.com/brunobatista25/best_archer/blob/master/tests/Calabash/comandos_calabash.md);
+2. [Comandos Calabash](https://github.com/brunobatista25/best_archer/blob/master/tests/Calabash/comandos_calabash.md);
 
 ## Outros:
 
@@ -56,6 +56,24 @@ E também da própria documentação dos frameworks.
 2. [Comandos Codeship](https://github.com/brunobatista25/best_archer/blob/master/tests/Codeship/comandos_codeship.md);
 3. [Comandos Jenkis](https://github.com/brunobatista25/best_archer/blob/master/tests/Jenkis/comandos_jenkis.md);
 4. [Comandos TravisCI](https://github.com/brunobatista25/best_archer/blob/master/tests/TravisCi/comandos_travisci.md);
+
+
+## Projetos prontos para exemplo:
+
+1. [Projeto Cucumber + Capybara + SitePrism + Ruby](https://github.com/brunobatista25/capybara_cucumber);
+
+2. [Projeto Rspec + Capybara + SitePrism + Ruby](https://github.com/brunobatista25/capybara_rspec);
+
+3. [Projeto Httparty + Cucumber + Ruby](https://github.com/brunobatista25/test_api_httparty_cucumber);
+
+4. [Projeto Airborne + Rspec + Ruby](EM BREVE...)(https://github.com/brunobatista25/test_api_airborne_rspec);
+
+5. [Projeto Appium + Selenium + Cucumber + Ruby](EM BREVE...)(https://github.com/brunobatista25/Appium_selenium);
+
+6. [Projeto Watir + Cucumber + Ruby](EM BREVE...)(https://github.com/brunobatista25/Cucumber_watir);
+
+
+
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
 
