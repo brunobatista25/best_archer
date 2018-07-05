@@ -81,7 +81,10 @@ E também da própria documentação dos frameworks.
 
 2. [Api para treinar Automação de API](EM BREVE...);
 
-3. [Site com o apk/ipa para treinar Automação Mobile](EM BREVE...);
+3. [Site com o IPA para treinar Automação Mobile](https://iosninja.io/ipa-library);
+
+4. [Site com o APK para treinar Automação Mobile](https://apkpure.com/br/app);
+
 
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
