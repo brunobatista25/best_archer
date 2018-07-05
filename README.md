@@ -68,9 +68,11 @@ E também da própria documentação dos frameworks.
 
 4. [Projeto Airborne + Rspec + Ruby](https://github.com/brunobatista25/test_api_airborne_rspec); (EM BREVE...)
 
-5. [Projeto Appium + Selenium + Cucumber + Ruby](https://github.com/brunobatista25/Appium_selenium); (EM BREVE...)
+5. [Projeto Appium + Selenium + Cucumber + Ruby + Android](https://github.com/brunobatista25/Appium_Ruby_Android); (EM BREVE...)
 
-6. [Projeto Watir + Cucumber + Ruby](https://github.com/brunobatista25/Cucumber_watir); (EM BREVE...)
+6. [Projeto Appium + Selenium + Cucumber + Ruby + IOS](https://github.com/brunobatista25/Appium_Ruby_IOS); (EM BREVE...)
+
+7. [Projeto Watir + Cucumber + Ruby](https://github.com/brunobatista25/Cucumber_watir); (EM BREVE...)
 
 
 ## Sites para fazer automação Web/API/Mobile:
