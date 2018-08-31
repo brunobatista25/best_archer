@@ -48,6 +48,10 @@ E também da própria documentação dos frameworks.
 
 MAIS EM BREVE...
 
+## InfraEstrutura
+
+1 [Comandos Docker](https://github.com/brunobatista25/best_archer/blob/master/tests/Docker/comandos_docker.md);
+
 ## Projetos prontos para exemplo:
 
 1. [Projeto Cucumber + Capybara + SitePrism + Ruby](https://github.com/brunobatista25/capybara_cucumber);
@@ -67,7 +71,6 @@ LINK PARA DOCUMENTAÇÃO DA API: https://app.apiary.io/apidetarefas
 3. [Site com o IPA para treinar Automação Mobile](https://iosninja.io/ipa-library);
 
 4. [Site com o APK para treinar Automação Mobile](https://apkpure.com/br/app);
-
 
 Quem quiser ajudar a contribuir nesse projeto será bem vindo!
 
