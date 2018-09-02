@@ -390,23 +390,41 @@ element.sibling('elemento')
 ## Opçōes para auxiliar
 
 :all - encontra um campo ativado ou desativado
+
 alt - Corresponder links com um elemento img contido, cujo alt corresponde
+
 class - Corresponder links que correspondam à (s) classe (s) fornecida (s)
+
 checked - Corresponder campo verificado?
+
 disabled - padrão: false - Corresponder campo desativado?
+
 false - só encontra um campo ativado
+
 href - Valor para combinar com os links href, se nil encontrar espaços reservados para links (<a> elementos sem atributo href)
+
 id - Corresponder links com o ID fornecido
+
 match - A estratégia de correspondência a ser usada.
+
 multiple - Corresponder campos que podem ter vários valores?
+
 name - Corresponder campos que correspondem ao atributo name
+
 placeholder - Corresponder campos que correspondam ao atributo de espaço reservado
+
 readonly - Corresponder campo readonly?
+
 title - Corresponder links com o título fornecido
+
 true - só encontra um campo desativado
+
 type - Tipo de campo para combinar
+
 unchecked - Corresponder campo desmarcado?
+
 wait - Tempo máximo para aguardar a exibição do elemento correspondente.
+
 with - Valor do campo para combinar
 
 
