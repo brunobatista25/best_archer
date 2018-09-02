@@ -139,4 +139,4 @@ element.sibling('elemento')
 
 **with** - Valor do campo para combinar
 
-**Vamos para o próximo post** [Reaizando açōes](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/06-realizando_acoes.md);
+**Vamos para o próximo post** [Realizando açōes](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/06-realizando_acoes.md);
