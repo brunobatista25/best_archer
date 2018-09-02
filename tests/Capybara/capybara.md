@@ -358,35 +358,6 @@ find_field('elemento')
 
 ## Opçōes para auxiliar o find_field
 
-wait - Tempo máximo para aguardar a exibição do elemento correspondente.
-
-checked - Corresponder campo verificado?
-
-unchecked - Corresponder campo desmarcado?
-
-disabled - padrão: false - Corresponder campo desativado?
-
-true - só encontra um campo desativado
-
-false - só encontra um campo ativado
-
-:all - encontra um campo ativado ou desativado
-
-readonly - Corresponder campo readonly?
-
-with - Valor do campo para combinar
-
-type - Tipo de campo para combinar
-
-multiple - Corresponder campos que podem ter vários valores?
-
-id - Corresponder campos que correspondem ao atributo id
-
-name - Corresponder campos que correspondem ao atributo name
-
-placeholder - Corresponder campos que correspondam ao atributo de espaço reservado
-
-Match - campos que correspondem à (s) classe (s) passada (s)
 
 
 ## find_link
@@ -396,20 +367,6 @@ Encontre um link na página.
 ```ruby
 find_link('link_do_elemento')
 ```
-
-## Opçōes para auxiliar o find_link
-
-wait - Tempo máximo para aguardar a exibição do elemento correspondente.
-
-href - Valor para combinar com os links href, se nil encontrar espaços reservados para links (<a> elementos sem atributo href)
-  
-id - Corresponder links com o ID fornecido
-
-title - Corresponder links com o título fornecido
-
-alt - Corresponder links com um elemento img contido, cujo alt corresponde
-
-class - Corresponder links que correspondam à (s) classe (s) fornecida (s)
 
 
 ## first
@@ -430,11 +387,49 @@ element.sibling('elemento')
 ```
 
 
-## Opçōes para auxiliar o sibling
+## Opçōes para auxiliar
 
-wait - Tempo máximo para aguardar a exibição do elemento correspondente.
-
+:all - encontra um campo ativado ou desativado
+alt - Corresponder links com um elemento img contido, cujo alt corresponde
+class - Corresponder links que correspondam à (s) classe (s) fornecida (s)
+checked - Corresponder campo verificado?
+disabled - padrão: false - Corresponder campo desativado?
+false - só encontra um campo ativado
+href - Valor para combinar com os links href, se nil encontrar espaços reservados para links (<a> elementos sem atributo href)
+id - Corresponder links com o ID fornecido
 match - A estratégia de correspondência a ser usada.
+multiple - Corresponder campos que podem ter vários valores?
+name - Corresponder campos que correspondem ao atributo name
+placeholder - Corresponder campos que correspondam ao atributo de espaço reservado
+readonly - Corresponder campo readonly?
+title - Corresponder links com o título fornecido
+true - só encontra um campo desativado
+type - Tipo de campo para combinar
+unchecked - Corresponder campo desmarcado?
+wait - Tempo máximo para aguardar a exibição do elemento correspondente.
+with - Valor do campo para combinar
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
