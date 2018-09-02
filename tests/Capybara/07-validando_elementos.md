@@ -247,7 +247,7 @@ Verifica se a página ou o nó atual não tem campo de seleção com o rótulo, 
 page.has_no_select?('elemento')
 ```
 
-# #has_no_selector?
+## has_no_selector?
 
 Verifica se um determinado seletor não está na página ou um descendente do nó atual.
 
@@ -390,5 +390,7 @@ expect(@element.not_matches_xpath?('elemento')).to be true
 **:selected** — Opções que devem ser selecionadas
 
 **:with_selected** — Conjunto parcial de opções que devem ser minimamente selecionadas
+
+**Vamos para o próximo post** [Validando elementos com rspec matchers](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/08-validando_com_rspec_matchers.md);
 
 -------------------------------------------------------------------------------

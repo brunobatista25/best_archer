@@ -1,41 +1,147 @@
-## FALTA EDITAR
+## Validando com Rspec Matcher
+ 
+-------------------------------------------------------------------------------
 
-## rspecmatcher
+## have_all_of_selectors
 
-#become_closed(**options) ⇒ Object
-Wait for window to become closed.
-#have_all_of_selectors(*args, &optional_filter_block) ⇒ Object
-RSpec matcher for whether the element(s) matching a group of selectors exist See Node::Matcher#assert_all_of_selectors.
-#have_button(locator = nil, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for buttons See Node::Matchers#has_button?.
-#have_checked_field(locator = nil, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for checked fields See Node::Matchers#has_checked_field?.
-#have_css(css, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for whether elements(s) matching a given css selector exist See Node::Matchers#has_css?.
-#have_current_path(path, **options) ⇒ Object
-RSpec matcher for the current path See SessionMatchers#assert_current_path.
-#have_field(locator = nil, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for links See Node::Matchers#has_field?.
-#have_link(locator = nil, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for links See Node::Matchers#has_link?.
-#have_none_of_selectors(*args, &optional_filter_block) ⇒ Object
-RSpec matcher for whether no element(s) matching a group of selectors exist See Node::Matcher#assert_none_of_selectors.
-#have_select(locator = nil, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for select elements See Node::Matchers#has_select?.
-#have_selector(*args, &optional_filter_block) ⇒ Object
-RSpec matcher for whether the element(s) matching a given selector exist See Node::Matcher#assert_selector.
-#have_table(locator = nil, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for table elements See Node::Matchers#has_table?.
-#have_text(*args) ⇒ Object (also: #have_content)
-RSpec matcher for text content See SessionMatchers#assert_text.
-#have_title(title, **options) ⇒ Object
-#have_unchecked_field(locator = nil, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for unchecked fields See Node::Matchers#has_unchecked_field?.
-#have_xpath(xpath, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for whether elements(s) matching a given xpath selector exist See Node::Matchers#has_xpath?.
-#match_css(css, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for whether the current element matches a given css selector.
-#match_selector(*args, &optional_filter_block) ⇒ Object
-RSpec matcher for whether the current element matches a given selector See Node::Matchers#assert_matches_selector.
-#match_xpath(xpath, **options, &optional_filter_block) ⇒ Object
-RSpec matcher for whether the current element matches a given xpath selector.
+Verifica se os elementos correspondentes a um grupo de seletores existem .
+
+```ruby
+expect(@elemento).to have_all_of_selectors('//p')
+```
+
+## have_button
+Verifica se a página ou o nó atual possui um botão com o texto, valor ou id fornecido.
+
+```ruby
+expect(@elemento).to have_button('//p')
+```
+
+## have_checked_field
+Se a página ou o nó atual tiver um botão de opção ou uma caixa de seleção com o rótulo, valor ou ID fornecido, que está marcado no momento.
+
+```ruby
+expect(@elemento).to have_checked_field('//p')
+```
+
+## have_css
+Verifica se um determinado seletor de CSS está na página ou um descendente do nó atual.
+
+```ruby
+expect(@elemento).to have_css('//p')
+```
+
+## have_current_path
+Afirma que a página tem o caminho fornecido
+
+```ruby
+expect(@elemento).to have_current_path('//p')
+```
+
+## have_field
+Verifica se a página ou o nó atual tem um campo de formulário com o rótulo, o nome ou o ID fornecido.
+
+```ruby
+expect(@elemento).to have_field('//p')
+```
+
+## have_link
+
+Verifica se a página ou o nó atual tem um link com o texto ou o ID fornecido.
+
+```ruby
+expect(@elemento).to have_link('//p')
+```
+
+## have_none_of_selectors
+
+Afirma que nenhum dos seletores fornecidos está presente na página ou nos descendentes do nó atual.
+
+```ruby
+expect(@elemento).to have_none_of_selectors('//p')
+```
+
+## have_select
+
+Verifica se a página ou o nó atual tem um campo de seleção com o rótulo, o nome ou o ID fornecido.
+
+```ruby
+expect(@elemento).to have_select('//p')
+```
+
+## have_selector
+
+Afirma que um determinado seletor está na página ou um descendente do nó atual.
+
+```ruby
+expect(@elemento).to have_selector('//p')
+```
+
+## have_table
+
+Verifica se a página ou o nó atual tem uma tabela com o ID ou legenda fornecida
+
+```ruby
+expect(@elemento).to have_table('//p')
+```
+
+## have_text
+
+Afirma que a página ou o nó atual possui o conteúdo de texto especificado, ignorando quaisquer tags HTML.
+
+```ruby
+expect(@elemento).to have_text('//p')
+```
+
+## have_title
+
+Verifica se um determinado título esta na página.
+
+```ruby
+expect(@elemento).to have_title('//p')
+```
+
+## have_unchecked_field
+
+Verifica se uma determinada expressão XPath está na página ou um descendente do nó atual.
+
+```ruby
+expect(@elemento).to have_unchecked_field('//p')
+```
+
+## have_xpath
+
+Verifica se uma quantia determinada XPath está na página ou descendente do seu atual.
+
+```ruby
+expect(@elemento).to have_xpath('//p')
+```
+
+
+## match_css
+
+Afirma que o current_node corresponde a um determinado seletor
+
+```ruby
+expect(find('#zone')).to match_css('elemento')
+```
+
+## match_selector
+
+ Afirma que o current_node corresponde a um determinado seletor
+
+```ruby
+expect(find('#zone')).to match_selector('elemento')
+```
+
+## match_xpath
+
+Correspondente RSpec para saber se o elemento atual corresponde a um determinado seletor de xpath.
+
+```ruby
+expect(find('#zone')).to match_xpath('elemento')
+```
+
+-------------------------------------------------------------------------------
+
+**Vamos para o próximo post** [Janelas, Modal, Alerts e Iframe](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/09-janelas_modal_alerts_iframe.md);

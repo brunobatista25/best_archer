@@ -16,4 +16,12 @@ Você pode obter o caminho atual da sessão de navegação e testá-lo usando o 
 expect(page).to have_current_path('https://www.site.com.br', url: true)
 ```
 
+## current_url
+URL totalmente qualificado da página atual.
+
+```ruby
+url = page.current_url
+puts url
+```
+
 **Vamos para o próximo post** [Buscando elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/05-buscando_elementos.md);
