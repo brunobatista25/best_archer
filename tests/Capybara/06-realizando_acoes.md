@@ -1,12 +1,86 @@
 ## Realizando Açōes
 
-## attach_file
+-------------------------------------------------------------------------------
 
-Encontre um campo de arquivo na página e anexe um arquivo ao seu caminho.
+## Preenchendo campos
+
+## fill_in
+
+Localize um campo de texto ou área de texto e preencha-o com o texto fornecido O campo pode ser encontrado através do seu nome, identificação ou texto da etiqueta.
 
 ```ruby
-page.attach_file(locator, '/path/to/file.png')
+fill_in 'Name', with: 'Bob'
 ```
+
+## send_keys
+
+Enviar pressionamentos de tecla para o elemento.
+
+```ruby
+find('elemento').send_keys('bruno')
+```
+
+## set 
+
+Defina o valor do elemento de formulário para o valor fornecido.
+
+```ruby
+find('elemento').set('bruno')
+```
+
+-------------------------------------------------------------------------------
+## Clicando em elementos
+
+## click_button
+
+Encontra um botão na página e clica nele.
+
+```ruby
+click_button('botao')
+```
+
+## click_link
+
+Encontra um link por id, texto ou título e clica nele.
+
+```ruby
+click_link('link')
+```
+
+## click_link_or_button
+
+Encontra um botão ou link e clica nele.
+
+```ruby
+click_link_or_button('linkoubotao')
+```
+
+## double_click
+
+Clique duas vezes no elemento.
+
+```ruby
+find('botao').double_click
+```
+
+## click
+
+Clique no elemento.
+
+```ruby
+find('botao').click
+```
+
+## right_click
+
+Clique com o botão direito no elemento.
+
+```ruby
+find('botao').right_click
+```
+
+-------------------------------------------------------------------------------
+## RadioBox e CheckBox
 
 ## check
 
@@ -33,37 +107,48 @@ Encontre um botão de opção e marque-o como marcado.
 page.choose('Male')
 ```
 
-## click_button
+-------------------------------------------------------------------------------
+## Upload de Arquivo
 
-Encontra um botão na página e clica nele.
+## attach_file
 
-```ruby
-click_button('botao')
-```
-
-## click_link
-
-Encontra um link por id, texto ou título e clica nele.
+Encontre um campo de arquivo na página e anexe um arquivo ao seu caminho.
 
 ```ruby
-click_link('link')
+page.attach_file(locator, '/path/to/file.png')
 ```
 
-## click_link_or_button
+-------------------------------------------------------------------------------
 
-Encontra um botão ou link e clica nele.
+## Drag and Drop
+
+## drag_to
+
+Move um elemento para outra posição
 
 ```ruby
-click_link_or_button('linkoubotao')
+  @primeiro_elemento = find('#winston')
+  @segundo_elemento = find('#dropzone')
+  @primeiro_elemento.drag_to(@segundo_elemento)
 ```
 
-## fill_in
+-------------------------------------------------------------------------------
 
-Localize um campo de texto ou área de texto e preencha-o com o texto fornecido O campo pode ser encontrado através do seu nome, identificação ou texto da etiqueta.
+## Mousehover
+
+#hover
+
+Passe o mouse sobre o elemento.
 
 ```ruby
-fill_in 'Name', with: 'Bob'
+find('elemento').hover
+
+find('.activator').hover.click
 ```
+
+-------------------------------------------------------------------------------
+
+## Combobox
 
 ## select
 
@@ -81,6 +166,23 @@ Encontre uma caixa de seleção na página e desmarque uma opção específica d
 unselect 'March', from: 'Month'
 ```
 
+## select_option
+
+Selecione este nó se for um elemento de opção dentro de uma tag de seleção.
+
+```ruby
+find('opcao').select_option
+```
+
+## unselect_option
+
+Desmarque este nó se for um elemento de opção dentro de uma tag de seleção múltipla.
+
+```ruby
+find('opcao').unselect_option
+```
+
+-------------------------------------------------------------------------------
 ## Opçōes para auxiliares para açōes.
 
 **Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse** [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions)
@@ -117,106 +219,6 @@ make_visible (true, Hash) - Um Hash de estilos CSS para alterar antes de tentar 
 
 **:with** — O valor a preencher - obrigatório
 
+**Vamos para o próximo post** [Validando elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/07-validando_elementos.md;);
 
-
-
-
-
-
-
-
-
-
-
-## Simple
-
-#[](name) ⇒ String
-Retrieve the given attribute.
-
-element[:title] # => HTML title attribute
-Parameters:
-
-name (Symbol) — The attribute name to retrieve
-
-#allow_reload! ⇒ Object
-#checked? ⇒ Boolean
-Whether or not the element is checked.
-#disabled? ⇒ Boolean
-Whether or not the element is disabled.
-#find_css(css) ⇒ Object private
-#find_xpath(xpath) ⇒ Object private
-#initialize(native) ⇒ Simple constructor
-A new instance of Simple.
-#inspect ⇒ Object
-#path ⇒ String
-An XPath expression describing where on the page the element can be found.
-#selected? ⇒ Boolean
-Whether or not the element is selected.
-#session_options ⇒ Object private
-#synchronize(_seconds = nil) ⇒ Object
-#tag_name ⇒ String
-The tag name of the element.
-#text(_type = nil) ⇒ String
-The text of the element.
-#title ⇒ String
-The title of the document.
-#value ⇒ String
-The value of the form element.
-#visible?(check_ancestors = true) ⇒ Boolean
-Whether or not the element is visible.
-
-
-## Element
-
-#[](attribute) ⇒ String
-Retrieve the given attribute.
-#allow_reload! ⇒ Object
-#checked? ⇒ Boolean
-Whether or not the element is checked.
-#click(*key_modifiers = [], offset = {x: nil, y: nil}) ⇒ Capybara::Node::Element
-Click the Element.
-#disabled? ⇒ Boolean
-Whether or not the element is disabled.
-#double_click(*key_modifiers = [], offset = {x: nil, y: nil}) ⇒ Capybara::Node::Element
-Double Click the Element.
-#drag_to(node) ⇒ Capybara::Node::Element
-Drag the element to the given other element.
-#hover ⇒ Capybara::Node::Element
-Hover on the Element.
-#initialize(session, base, query_scope, query) ⇒ Element constructor
-A new instance of Element.
-#inspect ⇒ Object
-#multiple? ⇒ Boolean
-Whether or not the element supports multiple results.
-#native ⇒ Object
-The native element from the driver, this allows access to driver specific methods.
-#path ⇒ String
-An XPath expression describing where on the page the element can be found.
-#readonly? ⇒ Boolean
-Whether or not the element is readonly.
-#reload ⇒ Object
-#right_click(*key_modifiers = [], offset = {x: nil, y: nil}) ⇒ Capybara::Node::Element
-Right Click the Element.
-#select_option ⇒ Capybara::Node::Element
-Select this node if is an option element inside a select tag.
-#selected? ⇒ Boolean
-Whether or not the element is selected.
-#send_keys(keys, ...) ⇒ Capybara::Node::Element
-Send Keystrokes to the Element.
-
-Symbols supported for keys :cancel :help :backspace :tab :clear :return :enter :shift :control :alt :pause :escape :space :page_up :page_down :end :home :left :up :right :down :insert :delete :semicolon :equals :numpad0 :numpad1 :numpad2 :numpad3 :numpad4 :numpad5 :numpad6 :numpad7 :numpad8 :numpad9 :multiply - numeric keypad * :add - numeric keypad + :separator - numeric keypad 'separator' key ?? :subtract - numeric keypad - :decimal - numeric keypad . :divide - numeric keypad / :f1 :f2 :f3 :f4 :f5 :f6 :f7 :f8 :f9 :f10 :f11 :f12 :meta :command - alias of :meta
-
-#set(value, **options) ⇒ Capybara::Node::Element
-Set the value of the form element to the given value.
-#tag_name ⇒ String
-The tag name of the element.
-#text(type = nil) ⇒ String
-Retrieve the text of the element.
-#trigger(event) ⇒ Capybara::Node::Element
-Trigger any event on the current element, for example mouseover or focus events.
-#unselect_option ⇒ Capybara::Node::Element
-Unselect this node if is an option element inside a multiple select tag.
-#value ⇒ String
-The value of the form element.
-#visible? ⇒ Boolean
-Whether or not the element is visible.
+--------------------------------------------------------------------------------

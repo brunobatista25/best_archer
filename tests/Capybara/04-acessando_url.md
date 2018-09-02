@@ -16,4 +16,4 @@ Você pode obter o caminho atual da sessão de navegação e testá-lo usando o 
 expect(page).to have_current_path('https://www.site.com.br', url: true)
 ```
 
-Vamos para o próximo post [Buscando elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/05-buscando_elementos.md);
+**Vamos para o próximo post** [Buscando elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/05-buscando_elementos.md);

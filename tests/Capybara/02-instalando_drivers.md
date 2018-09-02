@@ -77,6 +77,5 @@ Para instalar os drivers no Linux, podemos usar o mesmo método do NPM. Apenas u
   	 > PhantomJS
     `npm install -g phantomjs-prebuilt`
     
+**Vamos para o próximo post** [Configuração](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/03-configurando_projeto.md);
 
-
-Vamos para o próximo post [Configuração](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/03-configurando_projeto.md);

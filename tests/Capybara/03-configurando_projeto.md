@@ -141,4 +141,4 @@ Capybara.configure do |config|
 end
 ```
 
-Vamos para o próximo post [Acessando Url](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/04-acessando_url.md);
+**Vamos para o próximo post** [Acessando Url](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/04-acessando_url.md);
