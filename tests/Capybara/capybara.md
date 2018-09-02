@@ -1,10 +1,9 @@
 # Capybara
 
-
 ## Introdução
 
 Capybara é um framework de automação de testes em aplicações web, open-source, e escrito em Ruby. É utilizado para testar as aplicações simulando as ações que os usuários reais executariam na aplicação. Para utilizar o Capybara é necessário ter instalado o [Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoRuby/configuracao_ruby.md); 
-
+------------------------------------------------------------------------------
 # Instalando os Drivers
 
 ## Chromedriver
@@ -82,7 +81,7 @@ Para instalar os drivers no Linux, podemos usar o mesmo método do NPM. Apenas u
     
   	 > PhantomJS
     `npm install -g phantomjs-prebuilt`
-
+------------------------------------------------------------------------------
 # Configuração
 
 Agora vamos configurar nosso projeto ruby com capybara
@@ -235,7 +234,7 @@ Você pode obter o caminho atual da sessão de navegação e testá-lo usando o 
 ```ruby
 expect(page).to have_current_path('https://www.site.com.br', url: true)
 ```
-
+------------------------------------------------------------------------------
 
 # Buscando Elementos
 
@@ -313,9 +312,9 @@ Encontre um elemento baseado nos argumentos dados que também é um irmão do el
 element.sibling('elemento')
 ```
 
-## Opçōes para auxiliar
+## Opçōes para auxiliares para buscas.
 
-** Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions)
+** Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Finders)
 
 
 *:all* - encontra um campo ativado ou desativado
@@ -377,205 +376,107 @@ element.sibling('elemento')
 *wait* - Tempo máximo para aguardar a exibição do elemento correspondente.
 
 *with* - Valor do campo para combinar
-
+------------------------------------------------------------------------------
 
 ## Realizando Açōes
 
+#attach_file
+Encontre um campo de arquivo na página e anexe um arquivo ao seu caminho.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##ACTION
-
-#attach_file(locator = nil, path, make_visible: nil, **options) ⇒ Capybara::Node::Element
-Find a file field on the page and attach a file given its path.
-
-Parameters:
-
-locator (String) (defaults to: nil) — Which field to attach the file to
-path (String) — The path of the file that will be attached, or an array of paths
-options (Hash) — a customizable set of options
-Options Hash (**options):
-
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
-match (Symbol) — default: Capybara.match — The matching strategy to use (:one, :first, :prefer_exact, :smart).
-exact (Boolean) — default: Capybara.exact — Match the exact label name/contents or accept a partial match.
-multiple (Boolean) — Match field which allows multiple file selection
-id (String) — Match fields that match the id attribute
-name (String) — Match fields that match the name attribute
-:class (String, Array<String>) — Match fields that match the class(es) provided
-make_visible (true, Hash) — A Hash of CSS styles to change before attempting to attach the file, if `true` { opacity: 1, display: 'block', visibility: 'visible' } is used (may not be supported by all drivers)
+```ruby
+page.attach_file(locator, '/path/to/file.png')
+```
 
 #check([locator], options) ⇒ Capybara::Node::Element
 Find a check box and mark it as checked.
 
-Parameters:
-
-locator (String) — Which check box to check
-Options Hash (options):
-
-:option (String) — Value of the checkbox to select
-id (String) — Match fields that match the id attribute
-name (String) — Match fields that match the name attribute
-:class (String, Array<String>) — Match fields that match the class(es) provided
-:allow_label_click (Boolean) — default: Capybara.automatic_label_click — Attempt to click the label to toggle state if element is non-visible.
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
-
+```ruby
+```
 
 #choose([locator], options) ⇒ Capybara::Node::Element
 Find a radio button and mark it as checked.
 
-Parameters:
-
-locator (String) — Which radio button to choose
-Options Hash (options):
-
-:option (String) — Value of the radio_button to choose
-:id (String) — Match fields that match the id attribute
-:name (String) — Match fields that match the name attribute
-:class (String, Array<String>) — Match fields that match the class(es) provided
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
-:allow_label_click (Boolean) — default: Capybara.automatic_label_click — Attempt to click the label to toggle state if element is non-visible.
+```ruby
+```
 
 #click_button([locator], options) ⇒ Capybara::Node::Element
 Finds a button on the page and clicks it.
 
-Parameters:
-
-locator (String) — Which button to find
-options — See Finders#find_button
-Parameters:
-
-options (Hash) — a customizable set of options
-Options Hash (**options):
-
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
-
+```ruby
+```
 
 #click_link([locator], options) ⇒ Capybara::Node::Element
 Finds a link by id, text or title and clicks it.
 
-Parameters:
-
-locator (String) — text, id, title or nested image's alt attribute
-options — See Finders#find_link
-Parameters:
-
-options (Hash) — a customizable set of options
-Options Hash (**options):
-
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
-
+```ruby
+```
 
 #click_link_or_button([locator], options) ⇒ Capybara::Node::Element (also: #click_on)
 Finds a button or link and clicks it.
 
-Parameters:
-
-locator (String) — See #click_button and #click_link
-Parameters:
-
-options (Hash) — a customizable set of options
-Options Hash (**options):
-
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
+```ruby
+```
 
 #fill_in([locator], options = {}) ⇒ Capybara::Node::Element
 Locate a text field or text area and fill it in with the given text The field can be found via its name, id or label text.
 
-Parameters:
-
-locator (String) — Which field to fill in
-options (Hash) (defaults to: {})
-Options Hash (options):
-
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
-:with (String) — The value to fill in - required
-:fill_options (Hash) — Driver specific options regarding how to fill fields
-:currently_with (String) — The current value property of the field to fill in
-:multiple (Boolean) — Match fields that can have multiple values?
-:id (String) — Match fields that match the id attribute
-:name (String) — Match fields that match the name attribute
-:placeholder (String) — Match fields that match the placeholder attribute
-:class (String, Array<String>) — Match fields that match the class(es) provided
-
+```ruby
+```
 
 #select(value = nil, from: nil, **options) ⇒ Capybara::Node::Element
 If `:from` option is present, `select` finds a select box on the page and selects a particular option from it.
 
-Parameters:
-
-value (String) (defaults to: nil) — Which option to select
-options (Hash) — a customizable set of options
-Options Hash (**options):
-
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
-:from (String) — The id, name or label of the select box
+```ruby
+```
 
 #uncheck([locator], options) ⇒ Capybara::Node::Element
 Find a check box and mark uncheck it.
 
-Parameters:
-
-locator (String) — Which check box to uncheck
-Options Hash (options):
-
-:option (String) — Value of the checkbox to deselect
-id (String) — Match fields that match the id attribute
-name (String) — Match fields that match the name attribute
-:class (String, Array<String>) — Match fields that match the class(es) provided
-:allow_label_click (Boolean) — default: Capybara.automatic_label_click — Attempt to click the label to toggle state if element is non-visible.
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
+```ruby
+```
 
 #unselect(value = nil, from: nil, **options) ⇒ Capybara::Node::Element
 Find a select box on the page and unselect a particular option from it.
 
-Parameters:
+```ruby
+```
 
-value (String) (defaults to: nil) — Which option to unselect
-options (Hash{:from => String}) — The id, name or label of the select box
-Options Hash (**options):
+## Opçōes para auxiliares para açōes.
 
-wait (false, Numeric) — default: Capybara.default_max_wait_time — Maximum time to wait for matching element to appear.
+** Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions)
+
+
+*:allow_label_click*  - Tenta clicar no rótulo para alternar o estado se o elemento não estiver visível.
+
+*:class* - Campos de correspondência que correspondem à (s) classe (s) fornecida (s)
+
+*:class* - Corresponder campos que correspondam à (s) classe (s) fornecida (s)
+make_visible (true, Hash) - Um Hash de estilos CSS para alterar antes de tentar anexar o arquivo, se `true` {opacity: 1, display: 'block', visibilidade: 'visible'} é usado (pode não ser suportado por todos os drivers)
+*exact* - Corresponda o nome / conteúdo exato da etiqueta ou aceite uma correspondência parcial.
+
+*:currently_with* — A propriedade de valor atual do campo para preencher
+
+*:fill_options*— Opções específicas do driver sobre como preencher campos
+
+*:from* — O id, nome ou rótulo da caixa de seleção
+
+*id* - Corresponder campos que correspondem ao atributo id
+
+*match* - A estratégia de correspondência a ser usada (:one,:first,:prefer_exact,:smart).
+
+*multiple* - Campo de correspondência que permite a seleção de vários arquivos.
+
+*name* - Corresponder campos que correspondem ao atributo name
+
+*:option* (String) — Valor da caixa de seleção para selecionar
+
+*:option* — Valor do radio_button para escolher
+
+*:placeholder* — Corresponder campos que correspondam ao atributo de espaço reservado
+
+*wait* - Tempo máximo para aguardar a exibição do elemento correspondente.
+
+*:with* — O valor a preencher - obrigatório
 ------------------------------------------------------------------------------
 
 ## document marchter
