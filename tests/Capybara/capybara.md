@@ -85,8 +85,6 @@ Para instalar os drivers no Linux, podemos usar o mesmo método do NPM. Apenas u
 
 # Configuração
 
-Depois de ter instalado os [Drivers](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/02-instalando_drivers.md)
-
 Agora vamos configurar nosso projeto ruby com capybara
 
 Primeiro vc precisa ter instalado o [Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/01-introducao_bundler.md)
@@ -230,7 +228,7 @@ O método de visit só aceita um único parâmetro, o método de solicitação �
 visit('https://www.site.com.br')
 ```
 
-## Have_current_path
+## have_current_path
 
 Você pode obter o caminho atual da sessão de navegação e testá-lo usando o have_current_path correspondente:
 
@@ -243,7 +241,7 @@ expect(page).to have_current_path('https://www.site.com.br', url: true)
 
 Você também pode encontrar elementos específicos, a fim de manipulá-los:
 
-## all([kind = Capybara.default_selector], locator = nil, options = {}) 
+## all
 
 Encontre todos os elementos na página que correspondem ao seletor e opções fornecidos.
 
@@ -283,7 +281,8 @@ exact - Controlar se as expressões `is` no determinado XPath correspondem exata
 
 wait - O tempo de espera para que elementos correspondentes fiquem disponíveis
 
-## ancestor(*args, **options, &optional_filter_block)
+
+## ancestor
 
 Encontre um elemento com base nos argumentos fornecidos que também é um ancestral do elemento chamado.
 
@@ -291,18 +290,8 @@ Encontre um elemento com base nos argumentos fornecidos que também é um ancest
 element.ancestor('#foo').find('.bar')
 ```
 
-## Opçōes para auxiliar o ancestor
 
-options - um conjunto personalizável de opções
-
-kind - Tipo de seletor opcional
-
-locator - O localizador do seletor especificado
-
-options - um conjunto personalizável de opções
-
-
-## find(*args, **options, &optional_filter_block)
+## find
 
 Encontre um elemento com base nos argumentos fornecidos.
 
@@ -316,7 +305,8 @@ wait - Tempo máximo para aguardar a exibição do elemento correspondente.
 
 match - A estratégia de correspondência a ser usada.
 
-# find_button([locator], options = {})
+
+## find_button
 
 Encontre um botão na página.
 
@@ -344,7 +334,8 @@ value - Corresponder botões com o valor fornecido
 
 class - Botões de correspondência que correspondem à (s) classe (s) fornecida (s)
 
-## find_by_id(id, **options, &optional_filter_block)
+
+## find_by_id
 
 Encontre um elemento na página, dado seu id.
 
@@ -356,7 +347,8 @@ find_by_id('id_do_elemento')
 
 wait - Tempo máximo para aguardar a exibição do elemento correspondente.
 
-## find_field([locator], options = {})
+
+## find_field
 
 Encontre um campo de formulário na página.
 
@@ -397,7 +389,7 @@ placeholder - Corresponder campos que correspondam ao atributo de espaço reserv
 Match - campos que correspondem à (s) classe (s) passada (s)
 
 
-## find_link([locator], options = {})
+## find_link
 
 Encontre um link na página.
 
@@ -420,7 +412,7 @@ alt - Corresponder links com um elemento img contido, cujo alt corresponde
 class - Corresponder links que correspondam à (s) classe (s) fornecida (s)
 
 
-## first([kind], locator, options)
+## first
 
 Encontre o primeiro elemento na página que corresponda ao seletor e opções fornecidos.
 
@@ -428,13 +420,15 @@ Encontre o primeiro elemento na página que corresponda ao seletor e opções fo
 first('elemento')
 ```
 
-## sibling(*args, **options, &optional_filter_block)
+
+## sibling
 
 Encontre um elemento baseado nos argumentos dados que também é um irmão do elemento chamado.
 
 ```ruby
 element.sibling('elemento')
 ```
+
 
 ## Opçōes para auxiliar o sibling
 
