@@ -3,6 +3,7 @@
 ## Introdução
 
 Capybara é um framework de automação de testes em aplicações web, open-source, e escrito em Ruby. É utilizado para testar as aplicações simulando as ações que os usuários reais executariam na aplicação. Para utilizar o Capybara é necessário ter instalado o [Ruby](https://github.com/brunobatista25/best_archer/blob/master/tests/ConfiguracaoRuby/configuracao_ruby.md); 
+
 ------------------------------------------------------------------------------
 # Instalando os Drivers
 
@@ -387,64 +388,73 @@ Encontre um campo de arquivo na página e anexe um arquivo ao seu caminho.
 page.attach_file(locator, '/path/to/file.png')
 ```
 
-#check([locator], options) ⇒ Capybara::Node::Element
-Find a check box and mark it as checked.
+#check
+Encontre uma caixa de seleção e marque-a como marcado.
 
 ```ruby
+page.check('German')
 ```
 
-#choose([locator], options) ⇒ Capybara::Node::Element
-Find a radio button and mark it as checked.
+#uncheck
+Encontre uma caixa de seleção e marque a caixa de seleção.
 
 ```ruby
+uncheck('German')
+
 ```
 
-#click_button([locator], options) ⇒ Capybara::Node::Element
-Finds a button on the page and clicks it.
+#choose
+Encontre um botão de opção e marque-o como marcado.
 
 ```ruby
+page.choose('Male')
 ```
 
-#click_link([locator], options) ⇒ Capybara::Node::Element
-Finds a link by id, text or title and clicks it.
+#click_button
+Encontra um botão na página e clica nele.
 
 ```ruby
+click_button('botao')
 ```
 
-#click_link_or_button([locator], options) ⇒ Capybara::Node::Element (also: #click_on)
-Finds a button or link and clicks it.
+#click_link
+Encontra um link por id, texto ou título e clica nele.
 
 ```ruby
+click_link('link')
 ```
 
-#fill_in([locator], options = {}) ⇒ Capybara::Node::Element
-Locate a text field or text area and fill it in with the given text The field can be found via its name, id or label text.
+#click_link_or_button
+Encontra um botão ou link e clica nele.
 
 ```ruby
+click_link_or_button('linkoubotao')
 ```
 
-#select(value = nil, from: nil, **options) ⇒ Capybara::Node::Element
-If `:from` option is present, `select` finds a select box on the page and selects a particular option from it.
+#fill_in
+Localize um campo de texto ou área de texto e preencha-o com o texto fornecido O campo pode ser encontrado através do seu nome, identificação ou texto da etiqueta.
 
 ```ruby
+fill_in 'Name', with: 'Bob'
 ```
 
-#uncheck([locator], options) ⇒ Capybara::Node::Element
-Find a check box and mark uncheck it.
+#select
+Se a opção `:from` estiver presente, o `select` encontra uma caixa de seleção na página e seleciona uma opção particular dela. Caso contrário, ele encontrará uma opção dentro do escopo atual e a selecionará. Se a caixa de seleção for uma seleção múltipla, selecione pode ser chamado várias vezes para selecionar mais de uma opção. A caixa de seleção pode ser encontrada pelo nome, identificação ou texto da etiqueta. A opção pode ser encontrada pelo seu texto.
 
 ```ruby
+select 'March', from: 'Month'
 ```
 
-#unselect(value = nil, from: nil, **options) ⇒ Capybara::Node::Element
-Find a select box on the page and unselect a particular option from it.
+#unselect
+Encontre uma caixa de seleção na página e desmarque uma opção específica dela.
 
 ```ruby
+unselect 'March', from: 'Month'
 ```
 
 ## Opçōes para auxiliares para açōes.
 
 ** Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions)
-
 
 *:allow_label_click*  - Tenta clicar no rótulo para alternar o estado se o elemento não estiver visível.
 
