@@ -12,7 +12,7 @@ Localize um campo de texto ou área de texto e preencha-o com o texto fornecido 
 fill_in 'Name', with: 'Bob'
 ```
 
-## send_keys
+## .send_keys
 
 Enviar pressionamentos de tecla para o elemento.
 
@@ -20,7 +20,7 @@ Enviar pressionamentos de tecla para o elemento.
 find('elemento').send_keys('bruno')
 ```
 
-## set 
+## .set 
 
 Defina o valor do elemento de formulário para o valor fornecido.
 
@@ -55,7 +55,7 @@ Encontra um botão ou link e clica nele.
 click_link_or_button('linkoubotao')
 ```
 
-## double_click
+## .double_click
 
 Clique duas vezes no elemento.
 
@@ -63,7 +63,7 @@ Clique duas vezes no elemento.
 find('botao').double_click
 ```
 
-## click
+## .click
 
 Clique no elemento.
 
@@ -71,7 +71,7 @@ Clique no elemento.
 find('botao').click
 ```
 
-## right_click
+## .right_click
 
 Clique com o botão direito no elemento.
 
@@ -122,7 +122,7 @@ page.attach_file(locator, '/path/to/file.png')
 
 ## Drag and Drop
 
-## drag_to
+## .drag_to
 
 Move um elemento para outra posição
 
@@ -136,7 +136,7 @@ Move um elemento para outra posição
 
 ## Mousehover
 
-#hover
+## .hover
 
 Passe o mouse sobre o elemento.
 
@@ -166,7 +166,7 @@ Encontre uma caixa de seleção na página e desmarque uma opção específica d
 unselect 'March', from: 'Month'
 ```
 
-## select_option
+## .select_option
 
 Selecione este nó se for um elemento de opção dentro de uma tag de seleção.
 
@@ -174,7 +174,7 @@ Selecione este nó se for um elemento de opção dentro de uma tag de seleção.
 find('opcao').select_option
 ```
 
-## unselect_option
+## .unselect_option
 
 Desmarque este nó se for um elemento de opção dentro de uma tag de seleção múltipla.
 
