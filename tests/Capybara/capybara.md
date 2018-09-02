@@ -113,7 +113,7 @@ bundle install
 
 Todas a gems serão instaladas e um outro arquivo sera criado automaticamente Gemfile.lock
 
-## Configurando o ENV.RB
+ **Configurando o ENV.RB**
 
 Dentro desse arquivo temos que especificar as gems que serão utilizadas
 
@@ -122,7 +122,7 @@ require 'capybara'
 require 'selenium-webdriver'
 ```
 
-## Agora iremos adicionar umas configurações do capybara neste mesmo arquivo:
+ **Agora iremos adicionar umas configurações do capybara neste mesmo arquivo:**
 
 ```ruby
 require 'capybara'
@@ -377,25 +377,29 @@ element.sibling('elemento')
 *wait* - Tempo máximo para aguardar a exibição do elemento correspondente.
 
 *with* - Valor do campo para combinar
+
 ------------------------------------------------------------------------------
 
 ## Realizando Açōes
 
-#attach_file
+##attach_file
+
 Encontre um campo de arquivo na página e anexe um arquivo ao seu caminho.
 
 ```ruby
 page.attach_file(locator, '/path/to/file.png')
 ```
 
-#check
+##check
+
 Encontre uma caixa de seleção e marque-a como marcado.
 
 ```ruby
 page.check('German')
 ```
 
-#uncheck
+##uncheck
+
 Encontre uma caixa de seleção e marque a caixa de seleção.
 
 ```ruby
@@ -403,49 +407,56 @@ uncheck('German')
 
 ```
 
-#choose
+##choose
+
 Encontre um botão de opção e marque-o como marcado.
 
 ```ruby
 page.choose('Male')
 ```
 
-#click_button
+##click_button
+
 Encontra um botão na página e clica nele.
 
 ```ruby
 click_button('botao')
 ```
 
-#click_link
+##click_link
+
 Encontra um link por id, texto ou título e clica nele.
 
 ```ruby
 click_link('link')
 ```
 
-#click_link_or_button
+##click_link_or_button
+
 Encontra um botão ou link e clica nele.
 
 ```ruby
 click_link_or_button('linkoubotao')
 ```
 
-#fill_in
+##fill_in
+
 Localize um campo de texto ou área de texto e preencha-o com o texto fornecido O campo pode ser encontrado através do seu nome, identificação ou texto da etiqueta.
 
 ```ruby
 fill_in 'Name', with: 'Bob'
 ```
 
-#select
+##select
+
 Se a opção `:from` estiver presente, o `select` encontra uma caixa de seleção na página e seleciona uma opção particular dela. Caso contrário, ele encontrará uma opção dentro do escopo atual e a selecionará. Se a caixa de seleção for uma seleção múltipla, selecione pode ser chamado várias vezes para selecionar mais de uma opção. A caixa de seleção pode ser encontrada pelo nome, identificação ou texto da etiqueta. A opção pode ser encontrada pelo seu texto.
 
 ```ruby
 select 'March', from: 'Month'
 ```
 
-#unselect
+##unselect
+
 Encontre uma caixa de seleção na página e desmarque uma opção específica dela.
 
 ```ruby
@@ -487,6 +498,7 @@ make_visible (true, Hash) - Um Hash de estilos CSS para alterar antes de tentar 
 *wait* - Tempo máximo para aguardar a exibição do elemento correspondente.
 
 *:with* — O valor a preencher - obrigatório
+
 ------------------------------------------------------------------------------
 
 ## document marchter
