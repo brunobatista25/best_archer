@@ -6,10 +6,16 @@ Agora vamos configurar nosso projeto ruby com capybara
 
 Primeiro vc precisa ter instalado o [Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/01-introducao_bundler.md)
 
+# Configuração
+
+Agora vamos configurar nosso projeto ruby com capybara
+
+Primeiro vc precisa ter instalado o [Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/01-introducao_bundler.md)
+
 
 Agora crie um arquivo  chamado Gemfile sem nenhuma extensão, agora dentro do arquivo coloque os seguintes conteúdos:
 
-```
+```ruby
 source 'http://rubygems.org'
 
 gem 'capybara'
@@ -24,22 +30,22 @@ Selenium Webdriver será o Driver base e abrir o Chrome para automação.
 
 Agora rode o comando
 
-```
+```ruby
 bundle install
 ```
 
 Todas a gems serão instaladas e um outro arquivo sera criado automaticamente Gemfile.lock
 
-## Configurando o ENV.RB
+ **Configurando o ENV.RB**
 
 Dentro desse arquivo temos que especificar as gems que serão utilizadas
 
-```
+```ruby
 require 'capybara'
 require 'selenium-webdriver'
 ```
 
-## Agora iremos adicionar umas configurações do capybara neste mesmo arquivo:
+ **Agora iremos adicionar umas configurações do capybara neste mesmo arquivo:**
 
 ```ruby
 require 'capybara'
@@ -135,8 +141,4 @@ Capybara.configure do |config|
 end
 ```
 
-## Referências:
-
-https://github.com/teamcapybara/capybara
-
-https://github.com/thiagomarquessp/capybaraforall/
+Vamos para o próximo post [Acessando Url](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/04-acessando_url.md);

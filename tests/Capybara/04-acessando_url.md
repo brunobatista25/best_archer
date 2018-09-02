@@ -8,7 +8,7 @@ O método de visit só aceita um único parâmetro, o método de solicitação �
 visit('https://www.site.com.br')
 ```
 
-## Have_current_path
+## have_current_path
 
 Você pode obter o caminho atual da sessão de navegação e testá-lo usando o have_current_path correspondente:
 
@@ -16,4 +16,4 @@ Você pode obter o caminho atual da sessão de navegação e testá-lo usando o 
 expect(page).to have_current_path('https://www.site.com.br', url: true)
 ```
 
-Nota : Você também pode declarar o caminho atual testando o valor "current_path" diretamente. No entanto, usar o have_current_path matcher é mais seguro, pois ele usa o comportamento de espera do Capybara para garantir que as ações anteriores (como a click_link) tenham sido concluídas.
+Vamos para o próximo post [Buscando elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/05-buscando_elementos.md);

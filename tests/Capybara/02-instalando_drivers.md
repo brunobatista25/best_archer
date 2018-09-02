@@ -80,11 +80,3 @@ Para instalar os drivers no Linux, podemos usar o mesmo método do NPM. Apenas u
 
 
 Vamos para o próximo post [Configuração](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/03-configurando_projeto.md);
-
-## REFERÊNCIAS:
-
-https://github.com/teamcapybara/capybara
-
-http://phantomjs.org/download.html
-
-https://brew.sh/index_pt-br
