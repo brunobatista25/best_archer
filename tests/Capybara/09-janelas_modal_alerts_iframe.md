@@ -79,3 +79,5 @@ Execute the given block within the a specific fieldset given the id or legend of
 
 #within_table(locator) ⇒ Object
 Execute the given block within the a specific table given the id or caption of that table.
+
+**Vamos para o próximo post** [Métodos de screenchots](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/10-metodos_screenshots.md);

@@ -1,6 +1,58 @@
 ## Matchers
 
 ------------------------------------------------------------------------------
+## verificando elementos
+
+## checked
+
+Se o elemento está ou não marcado.
+
+```ruby
+find('name').checked
+```
+
+## disabled? 
+
+Se o elemento está ou não desativado.
+
+```ruby
+find('name').disabled?
+```
+
+## selected?
+
+Se o elemento está selecionado ou não.
+
+```ruby
+find('name').selected?
+```
+
+## visible?
+
+Se o elemento é visível ou não.
+
+```ruby
+find('name').visible?
+```
+
+## multiple? 
+
+Se o elemento suporta ou não vários resultados.
+
+```ruby
+find('name').multiple?
+```
+
+## readonly?
+
+Se o elemento é ou não somente leitura.
+
+```ruby
+find('name').readonly?
+```
+
+------------------------------------------------------------------------------
+
 ## Asserts
 
 ## assert_all_of_selectors

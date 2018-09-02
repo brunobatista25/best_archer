@@ -183,6 +183,15 @@ find('opcao').unselect_option
 ```
 
 -------------------------------------------------------------------------------
+## limpar campos
+
+#native
+
+```ruby
+find('element').native.clear
+```
+
+------------------------------------------------------------------------------
 ## Opçōes para auxiliares para açōes.
 
 **Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse** [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions)

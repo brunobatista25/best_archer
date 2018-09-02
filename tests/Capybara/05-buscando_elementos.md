@@ -74,6 +74,48 @@ Encontre um elemento baseado nos argumentos dados que também é um irmão do el
 element.sibling('elemento')
 ```
 
+----------------------------------------------------------------------------------------
+## Pegando valores dos elementos
+
+## PEGAR VALOR 
+
+# []
+Recupere o atributo fornecido.
+
+```ruby
+element = find('elemento')
+element[:title] 
+```
+
+#tag_name ⇒ String
+O nome da tag do elemento.
+
+```ruby
+find.('elemento').tag_name
+```
+
+#text(_type = nil) ⇒ String
+O texto do elemento.
+
+```ruby
+find.('elemento').text
+```
+
+#title ⇒ String
+O título do documento.
+
+```ruby
+find.('elemento').title
+```
+
+#value ⇒ String
+O valor do elemento de formulário.
+
+```ruby
+find.('elemento').value
+```
+-----------------------------------------------------------------------------
+
 ## Opçōes para auxiliares para buscas.
 
 ** Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Finders)
