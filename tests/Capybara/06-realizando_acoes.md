@@ -219,6 +219,6 @@ make_visible (true, Hash) - Um Hash de estilos CSS para alterar antes de tentar 
 
 **:with** — O valor a preencher - obrigatório
 
-**Vamos para o próximo post** [Validando elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/07-validando_elementos.md;);
+**Vamos para o próximo post** [Validando elementos](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/07-validando_elementos.md);
 
 --------------------------------------------------------------------------------
