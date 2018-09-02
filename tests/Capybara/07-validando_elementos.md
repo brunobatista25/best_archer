@@ -392,5 +392,6 @@ expect(@element.not_matches_xpath?('elemento')).to be true
 **:with_selected** — Conjunto parcial de opções que devem ser minimamente selecionadas
 
 
-**Vamos para o próximo post** [Validando elementos com rspec matchers](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/08-validando_com_rspec_matchers.md);
+**Vamos para o próximo post** [Validando elementos com rspec matchers](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/08-validacoes_com_rspec_matchers.md);
+
 -------------------------------------------------------------------------------
