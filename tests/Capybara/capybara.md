@@ -318,71 +318,71 @@ element.sibling('elemento')
 ** Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Finders)
 
 
-*:all* - encontra um campo ativado ou desativado
+**:all** - encontra um campo ativado ou desativado
 
-*alt* - Corresponder links com um elemento img contido, cujo alt corresponde
+**alt** - Corresponder links com um elemento img contido, cujo alt corresponde
 
-*between* - O número de correspondências encontradas deve estar dentro do intervalo determinado
+**between** - O número de correspondências encontradas deve estar dentro do intervalo determinado
 
-*checked* - Corresponder campo verificado?
+**checked** - Corresponder campo verificado?
 
-*class* - Corresponder links que correspondam à (s) classe (s) fornecida (s)
+**class** - Corresponder links que correspondam à (s) classe (s) fornecida (s)
 
-*count* - Número exato de correspondências que se espera encontrar
+**count** - Número exato de correspondências que se espera encontrar
 
-*disabled* - padrão: false - Corresponder campo desativado?
+**disabled** - padrão: false - Corresponder campo desativado?
 
-*exact* - Controlar se as expressões `is` no determinado XPath correspondem exatamente ou parcialmente
+**exact** - Controlar se as expressões `is` no determinado XPath correspondem exatamente ou parcialmente
 
-*exact_text* - Quando String, o texto contido no elemento deve corresponder exatamente, quando o Boolean controla se a opção: text deve corresponder exatamente
+**exact_text** - Quando String, o texto contido no elemento deve corresponder exatamente, quando o Boolean controla se a opção: text deve corresponder exatamente
 
-*false* - só encontra um campo ativado
+**false** - só encontra um campo ativado
 
-*:hidden* - só encontra elementos invisíveis.
+**:hidden** - só encontra elementos invisíveis.
 
-*href* - Valor para combinar com os links href, se nil encontrar espaços reservados para links (<a> elementos sem atributo href)
+**href** - Valor para combinar com os links href, se nil encontrar espaços reservados para links (<a> elementos sem atributo href)
 
-*id* - Corresponder links com o ID fornecido
+**id** - Corresponder links com o ID fornecido
 
-*match* - A estratégia de correspondência a ser usada.
+**match** - A estratégia de correspondência a ser usada.
 
-*maximum* - Número máximo de correspondências que se espera encontrar
+**maximum** - Número máximo de correspondências que se espera encontrar
 
-*minimum* - Número mínimo de correspondências que se espera encontrar
+**minimum** - Número mínimo de correspondências que se espera encontrar
 
-*multiple* - Corresponder campos que podem ter vários valores?
+**multiple** - Corresponder campos que podem ter vários valores?
 
-*name* - Corresponder campos que correspondem ao atributo name
+**name** - Corresponder campos que correspondem ao atributo name
 
-*placeholder* - Corresponder campos que correspondam ao atributo de espaço reservado
+**placeholder** - Corresponder campos que correspondam ao atributo de espaço reservado
 
-*readonly* - Corresponder campo readonly?
+**readonly** - Corresponder campo readonly?
 
-*text* - Apenas encontre elementos que contenham este texto ou correspondam a este regexp
+**text** - Apenas encontre elementos que contenham este texto ou correspondam a este regexp
 
-*title* - Corresponder links com o título fornecido
+**title** - Corresponder links com o título fornecido
 
-*true* - só encontra um campo desativado
+**true** - só encontra um campo desativado
 
-*type* - Tipo de campo para combinar
+**type** - Tipo de campo para combinar
 
-*unchecked* - Corresponder campo desmarcado?
+**unchecked** - Corresponder campo desmarcado?
 
-*value* - Corresponder botões com o valor fornecido
+**value** - Corresponder botões com o valor fornecido
 
-*visible* - Apenas encontre elementos com a visibilidade especificada:
+**visible** - Apenas encontre elementos com a visibilidade especificada:
 
-*:visible* - o mesmo que true; só encontra elementos visíveis.
+**:visible** - o mesmo que true; só encontra elementos visíveis.
 
-*wait* - Tempo máximo para aguardar a exibição do elemento correspondente.
+**wait** - Tempo máximo para aguardar a exibição do elemento correspondente.
 
-*with* - Valor do campo para combinar
+**with** - Valor do campo para combinar
 
 ------------------------------------------------------------------------------
 
 ## Realizando Açōes
 
-##attach_file
+## attach_file
 
 Encontre um campo de arquivo na página e anexe um arquivo ao seu caminho.
 
@@ -390,7 +390,7 @@ Encontre um campo de arquivo na página e anexe um arquivo ao seu caminho.
 page.attach_file(locator, '/path/to/file.png')
 ```
 
-##check
+## check
 
 Encontre uma caixa de seleção e marque-a como marcado.
 
@@ -398,7 +398,7 @@ Encontre uma caixa de seleção e marque-a como marcado.
 page.check('German')
 ```
 
-##uncheck
+## uncheck
 
 Encontre uma caixa de seleção e marque a caixa de seleção.
 
@@ -407,7 +407,7 @@ uncheck('German')
 
 ```
 
-##choose
+## choose
 
 Encontre um botão de opção e marque-o como marcado.
 
@@ -415,7 +415,7 @@ Encontre um botão de opção e marque-o como marcado.
 page.choose('Male')
 ```
 
-##click_button
+## click_button
 
 Encontra um botão na página e clica nele.
 
@@ -423,7 +423,7 @@ Encontra um botão na página e clica nele.
 click_button('botao')
 ```
 
-##click_link
+## click_link
 
 Encontra um link por id, texto ou título e clica nele.
 
@@ -431,7 +431,7 @@ Encontra um link por id, texto ou título e clica nele.
 click_link('link')
 ```
 
-##click_link_or_button
+## click_link_or_button
 
 Encontra um botão ou link e clica nele.
 
@@ -439,7 +439,7 @@ Encontra um botão ou link e clica nele.
 click_link_or_button('linkoubotao')
 ```
 
-##fill_in
+## fill_in
 
 Localize um campo de texto ou área de texto e preencha-o com o texto fornecido O campo pode ser encontrado através do seu nome, identificação ou texto da etiqueta.
 
@@ -447,7 +447,7 @@ Localize um campo de texto ou área de texto e preencha-o com o texto fornecido 
 fill_in 'Name', with: 'Bob'
 ```
 
-##select
+## select
 
 Se a opção `:from` estiver presente, o `select` encontra uma caixa de seleção na página e seleciona uma opção particular dela. Caso contrário, ele encontrará uma opção dentro do escopo atual e a selecionará. Se a caixa de seleção for uma seleção múltipla, selecione pode ser chamado várias vezes para selecionar mais de uma opção. A caixa de seleção pode ser encontrada pelo nome, identificação ou texto da etiqueta. A opção pode ser encontrada pelo seu texto.
 
@@ -455,7 +455,7 @@ Se a opção `:from` estiver presente, o `select` encontra uma caixa de seleçã
 select 'March', from: 'Month'
 ```
 
-##unselect
+## unselect
 
 Encontre uma caixa de seleção na página e desmarque uma opção específica dela.
 
@@ -465,39 +465,39 @@ unselect 'March', from: 'Month'
 
 ## Opçōes para auxiliares para açōes.
 
-** Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions)
+**Essas opçōes não são para todos o comandos não, sugiro ir na domcumentação e ver qual comando comando usa as opcōes nesse** [Link](https://www.rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions)
 
-*:allow_label_click*  - Tenta clicar no rótulo para alternar o estado se o elemento não estiver visível.
+**:allow_label_click**  - Tenta clicar no rótulo para alternar o estado se o elemento não estiver visível.
 
-*:class* - Campos de correspondência que correspondem à (s) classe (s) fornecida (s)
+**:class** - Campos de correspondência que correspondem à (s) classe (s) fornecida (s)
 
-*:class* - Corresponder campos que correspondam à (s) classe (s) fornecida (s)
+**:class** - Corresponder campos que correspondam à (s) classe (s) fornecida (s)
 make_visible (true, Hash) - Um Hash de estilos CSS para alterar antes de tentar anexar o arquivo, se `true` {opacity: 1, display: 'block', visibilidade: 'visible'} é usado (pode não ser suportado por todos os drivers)
 *exact* - Corresponda o nome / conteúdo exato da etiqueta ou aceite uma correspondência parcial.
 
-*:currently_with* — A propriedade de valor atual do campo para preencher
+**:currently_with** — A propriedade de valor atual do campo para preencher
 
-*:fill_options*— Opções específicas do driver sobre como preencher campos
+**:fill_options** — Opções específicas do driver sobre como preencher campos
 
-*:from* — O id, nome ou rótulo da caixa de seleção
+**:from** — O id, nome ou rótulo da caixa de seleção
 
-*id* - Corresponder campos que correspondem ao atributo id
+**id** - Corresponder campos que correspondem ao atributo id
 
-*match* - A estratégia de correspondência a ser usada (:one,:first,:prefer_exact,:smart).
+**match** - A estratégia de correspondência a ser usada (:one,:first,:prefer_exact,:smart).
 
-*multiple* - Campo de correspondência que permite a seleção de vários arquivos.
+**multiple** - Campo de correspondência que permite a seleção de vários arquivos.
 
-*name* - Corresponder campos que correspondem ao atributo name
+**name** - Corresponder campos que correspondem ao atributo name
 
-*:option* (String) — Valor da caixa de seleção para selecionar
+**:option** (String) — Valor da caixa de seleção para selecionar
 
-*:option* — Valor do radio_button para escolher
+**:option** — Valor do radio_button para escolher
 
-*:placeholder* — Corresponder campos que correspondam ao atributo de espaço reservado
+**:placeholder** — Corresponder campos que correspondam ao atributo de espaço reservado
 
-*wait* - Tempo máximo para aguardar a exibição do elemento correspondente.
+**wait** - Tempo máximo para aguardar a exibição do elemento correspondente.
 
-*:with* — O valor a preencher - obrigatório
+**:with** — O valor a preencher - obrigatório
 
 ------------------------------------------------------------------------------
 
