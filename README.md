@@ -14,9 +14,6 @@ E também da própria documentação dos frameworks.
 
 1. [Ruby Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
 
-## TDD com:
-1. [Comandos Rspec](https://github.com/brunobatista25/best_archer/blob/master/tests/Rspec/comandos_rspec.md); (EM BREVE...)
-
 ## BDD com:
 
 1. [Comandos Cucumber](https://github.com/brunobatista25/best_archer/blob/master/tests/Cucumber/comandos_cucumber.md);
@@ -25,6 +22,8 @@ E também da própria documentação dos frameworks.
 
 1. [Comandos Capybara](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/comandos_capybara.md);
 2. [Comandos SitePrism](https://github.com/brunobatista25/best_archer/blob/master/tests/SitePrism/comandos_siteprism.md);
+3. [Comandos Watir](https://github.com/brunobatista25/best_archer/blob/master/tests/Watir/comandos_watir.md); (EM BREVE...)
+4. [Comandos SeleniumWebDriver](https://github.com/brunobatista25/best_archer/blob/master/tests/SeleniumWebdriver/comandos_selenium_webdriver.md); (EM BREVE...)
 
 ## Automação de Api:
 
@@ -42,15 +41,13 @@ E também da própria documentação dos frameworks.
 2. [Comandos Bundler](https://github.com/brunobatista25/best_archer/blob/master/tests/Bundler/01-introducao_bundler.md);
 3. [Comandos Rake](https://github.com/brunobatista25/best_archer/blob/master/tests/Rake/comandos_rake.md); (EM BREVE...)
 
-## Continuous integration:
+## DEVOPS
 
 1. [Comandos Codeship](https://github.com/brunobatista25/best_archer/blob/master/tests/Codeship/comandos_codeship.md);
+2. [Comandos Docker](https://github.com/brunobatista25/best_archer/blob/master/tests/Docker/comandos_docker.md); (EM BREVE...)
 
-MAIS EM BREVE...
-
-## InfraEstrutura
-
-1 [Comandos Docker](https://github.com/brunobatista25/best_archer/blob/master/tests/Docker/comandos_docker.md);
+## TDD com:
+1. [Comandos Rspec](https://github.com/brunobatista25/best_archer/blob/master/tests/Rspec/comandos_rspec.md); (EM BREVE...)
 
 ## Projetos prontos para exemplo:
 
