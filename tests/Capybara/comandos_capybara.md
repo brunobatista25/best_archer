@@ -10,7 +10,7 @@
 8. [Validaçōes com Rspec Matchers](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/08-validacoes_com_rspec_matchers.md);
 9. [Janela, Modal, Alerts e Iframe](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/09-janelas_modal_alerts_iframe.md);
 10. [Métodos de screenchots](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/10-metodos_screenshots.md);
-11. [Web responsiva com Capybara](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/11-web_responsiva_capybara.md);
-12. [Comandos Javascript](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/12-comandos_javascript.md);
+11. [Comandos Javascript](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/11-comandos_javascript.md);
+12. [Web responsiva com Capybara](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/12-web_responsiva_capybara.md);
 
 MAIS EM BREVE...

@@ -11,3 +11,6 @@ Execute the given script, not returning a result.
 
 #trigger(event) ⇒ Capybara::Node::Element
 Trigger any event on the current element, for example mouseover or focus events.
+
+
+**Vamos para o próximo post** [Comandos Web responsiva com Capybara](https://github.com/brunobatista25/best_archer/blob/master/tests/Capybara/12-web_responsiva_capybara.md);
