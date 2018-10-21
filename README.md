@@ -44,8 +44,12 @@ E também da própria documentação dos frameworks.
 
 ## DEVOPS
 
-1. [Comandos Codeship](https://github.com/brunobatista25/best_archer/blob/master/tests/Codeship/comandos_codeship.md);
-2. [Comandos Docker](https://github.com/brunobatista25/best_archer/blob/master/tests/Docker/comandos_docker.md); (EM BREVE...)
+1. [Comandos Codeship](https://github.com/brunobatista25/best_archer/blob/master/tests/Codeship/comandos_codeship.md); (EM BREVE...)
+2. [Comandos Jenkis](https://github.com/brunobatista25/best_archer/blob/master/tests/Jenkins/comandos_jenkins.md); (EM BREVE...)
+3. [Comandos CircleCi](https://github.com/brunobatista25/best_archer/blob/master/tests/CircleCi/comandos_circleci.md); (EM BREVE...)
+4. [Comandos TravisCi](https://github.com/brunobatista25/best_archer/blob/master/tests/Travisci/comandos_travis.md); (EM BREVE...)
+5. [Comandos GitLabCi](https://github.com/brunobatista25/best_archer/blob/master/tests/Gitlabci/comandos_gitlabci.md); (EM BREVE...)
+6. [Comandos Docker](https://github.com/brunobatista25/best_archer/blob/master/tests/Docker/comandos_docker.md); (EM BREVE...)
 
 ## TDD com:
 1. [Comandos Rspec](https://github.com/brunobatista25/best_archer/blob/master/tests/Rspec/comandos_rspec.md); (EM BREVE...)
