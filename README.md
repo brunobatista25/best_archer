@@ -44,7 +44,7 @@ E também da própria documentação dos frameworks.
 
 ## DEVOPS
 
-1. [Comandos Codeship](https://github.com/brunobatista25/best_archer/blob/master/tests/Codeship/comandos_codeship.md); (EM BREVE...)
+1. [Comandos Codeship](https://github.com/brunobatista25/best_archer/blob/master/tests/Codeship/comandos_codeship.md);
 2. [Comandos Jenkis](https://github.com/brunobatista25/best_archer/blob/master/tests/Jenkins/comandos_jenkins.md); (EM BREVE...)
 3. [Comandos CircleCi](https://github.com/brunobatista25/best_archer/blob/master/tests/CircleCi/comandos_circleci.md); (EM BREVE...)
 4. [Comandos TravisCi](https://github.com/brunobatista25/best_archer/blob/master/tests/Travisci/comandos_travis.md); (EM BREVE...)
