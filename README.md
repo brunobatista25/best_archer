@@ -13,6 +13,7 @@ E também da própria documentação dos frameworks.
 ## Básico:
 
 1. [Ruby Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Ruby/comandos_ruby.md);
+2. [Rspec Básico](https://github.com/brunobatista25/best_archer/blob/master/tests/Rspec/comandos_rspec.md); (EM BREVE...)
 
 ## BDD com:
 

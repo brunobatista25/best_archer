@@ -11,12 +11,11 @@ gem install site_prism
 ```ruby
 source 'http://rubygems.org'
 
-gem 'capybara', '3.0.3'
+gem 'capybara', '<3.3'
 gem 'cucumber'
-gem 'selenium-webdriver'
+gem 'selenium-webdriver', '~>3.4'
 gem 'rspec'
-gem 'site_prism', '2.15'
-gem 'faker'
+gem 'site_prism', '2.15.1'
 ```
 
 # Usando SitePrism com Cucumber
@@ -38,6 +37,13 @@ require 'site_prism'
 ```
 
 # Criando um Page Objects
+
+
+O Modelo de Objeto de Página é um padrão de automação de teste que visa criar uma abstração da interface de usuário do seu site que pode ser usada em testes. A maneira mais comum de fazer isso é modelar cada página como uma classe e, em seguida, usar instâncias dessas classes em seus testes.
+
+Se uma classe representa uma página, então cada elemento da página é representado por um método que, quando chamado, retorna uma referência àquele elemento que pode ser acionado (clicado, definido como valor de texto) ou consultado (está habilitado? / visível?).
+
+O SitePrism é baseado nesse conceito, mas vai além, como você verá abaixo, também permitindo a modelagem de seções repetidas que aparecem em várias páginas, ou muitas vezes em uma página usando o conceito de seções.
 
 E para utilizar os métodos do SitePrism basta herdar da classe SitePrism::Page
 
