@@ -79,3 +79,11 @@ Quem quiser ajudar a contribuir nesse projeto será bem vindo!
 Qualquer coisa meu email é brunobatista101@gmail.com
 
 Até mais jovens!
+
+
+erros windows utf 8
+painel de controle
+regiao
+aba administrativo
+alterar localidade do sistema
+marcar checkbox Beta: usar unicode UTF-8 para suporte de linguagem mundial
